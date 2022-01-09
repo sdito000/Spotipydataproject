@@ -40,14 +40,19 @@ https://user-images.githubusercontent.com/91945641/148683616-e575c3eb-3672-4e8b-
 
 Tempo
 95.881
+
 Danceability
 0.842
+
 Valence 
 0.617
+
 Energy 
 0.801
+
 Loudness
 -4.167
+
 Speechability 
 0.228
 
@@ -64,14 +69,19 @@ https://user-images.githubusercontent.com/91945641/148683640-040045ad-3522-4f05-
 
 Tempo
 141.981
+
 Danceability
 0.604
+
 Valence 
 0.13
+
 Energy 
 0.366
+
 Loudness
 -7.519
+
 Speechability 
 0.028
 
