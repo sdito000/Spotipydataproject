@@ -1,15 +1,16 @@
-# Spotipyproject
+# **What Makes a Song Popular?**
 
-**What Makes a Song Popular?**
+<img width="911" alt="Screen Shot 2022-01-09 at 1 24 34 PM" src="https://user-images.githubusercontent.com/91945641/148684009-aebdf365-4b97-4ad3-bd8a-a154a3f1662f.png">
+
 
 Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in predicting, using the popular streaming platform Spotify, if there exists a set pattern which makes a song hit the top charts. Some professional musicians claim they know exactly how to compose a top chart song. Psychologists say that dopamine is released when humans listen to their favorite song. So audio features, such as loudness and danceability, might play a role in higher levels of good feelings in the human brain. We are inspired to see if these claims are true, through our study of Spotify’s audio features. So, What makes a song Popular? 
 
-_**Overview**_
+## _**Overview**_
 Our project’s aim was to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of every November from the years 2018 to 2021. We used SpotifyCharts.com to obtain these songs.
 
 Now, we want to familiarise you with the audio features we concentrated on. 
 
-
+<img width="911" alt="Screen Shot 2022-01-09 at 1 26 05 PM" src="https://user-images.githubusercontent.com/91945641/148684062-cce15468-bd63-4c10-8e61-c659ab319e9c.png">
 
 The features that we chose have to do with the mood and production properties of the song. We feel that these features (tempo, danceability, valence, energy, speechiness, loudness, and instrumentalness) really contribute to what attracts the average ear to top songs. 
 
@@ -25,17 +26,16 @@ Valence: A measure from 0.0 to 1.0 describing the musical positiveness conveyed 
 
 
 
-_**Examples**_
+## _**Examples**_
 
 We want to show you some top songs, so you can get an idea how the audio features values are manifested for a top song. 
 
-**Taki Taki (with Selena Gomez, Ozuna, and Cardi B)**
+# **Taki Taki (with Selena Gomez, Ozuna, and Cardi B)**
 _By DJ Snake_
 
+![Taki taki album](https://user-images.githubusercontent.com/91945641/148683880-55de9461-db89-44cf-9cd4-e81e3ae32ba5.png)
 
 https://user-images.githubusercontent.com/91945641/148683616-e575c3eb-3672-4e8b-8800-92a7fb4a7266.mp4
-
-
 
 
 Tempo
@@ -53,10 +53,10 @@ Speechability
 
 
 
-**Easy on Me**
+## **Easy on Me**
 _By Adele_ 
 
-
+![adele album](https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg)
 
 https://user-images.githubusercontent.com/91945641/148683640-040045ad-3522-4f05-b2ea-a2d7971c671c.mp4
 
@@ -76,11 +76,13 @@ Speechability
 0.028
 
 
-INSERT RADAR CHARTS
+![WhatsApp Image 2021-12-04 at 10 28 24 AM (1)](https://user-images.githubusercontent.com/91945641/148684206-6d948b8d-70f6-48fc-be20-9fdabdc69ef3.jpeg)
+
+![WhatsApp Image 2021-12-04 at 10 28 25 AM](https://user-images.githubusercontent.com/91945641/148684185-c7be63a3-fd2b-4398-bacf-3617e04b76bd.jpeg)
 
 Note: the features listed in the radar charts are a measure between 0 and 1. 
 
-A Puzzle
+## A Puzzle
 
 Taki Taki is the number one hit in November of 2018, while Easy on Me is the number one hit in November of 2021. As we can notice with these audio features, the two hit songs are quite different. 
 
@@ -93,3 +95,11 @@ Also we see some sort of correlation with energy and danceability, which we want
 From these songs’ data, we notice an irrelevance of speechiness here. Adele has a very low speechability as opposed to a relatively higher speechability in DJ Snake’s song. But when you listen to the music, it seems like Adele is singing more, while “Taki Taki” seems more instrumental. Our objective for studying speechiness was to see if more or less singing was more desirable to the human ear. But, this analysis shows that speechability measures do not help to explain our objective, as Adele’s top song is characterized by her lyrics. 
 
 The only answer to our initial question that can be drawn from this comparison is that Both songs have high danceability, so that might contribute to the popularity of a song. 
+
+### More Examples
+
+![WhatsApp Image 2021-12-04 at 10 28 24 AM (2)](https://user-images.githubusercontent.com/91945641/148684312-e8f53094-9f5c-4e63-95ae-32ae70ca7752.jpeg)
+![WhatsApp Image 2021-12-04 at 10 28 24 AM (2)](https://user-images.githubusercontent.com/91945641/148684324-50b454f2-1b7b-4363-a318-79edc095abc7.jpeg)
+
+The top song in November of 2019 is "Dance Monkey" by Tones and I and the top song in November 2020 is "positions" by Ariana Grande.
+
