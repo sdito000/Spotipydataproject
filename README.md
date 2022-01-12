@@ -126,3 +126,40 @@ The top song in November of 2019 is "Dance Monkey" by Tones and I and the top so
 ![WhatsApp Image 2022-01-06 at 5 55 51 PM (1)](https://user-images.githubusercontent.com/91945641/149195554-3e8e6179-4546-442e-95bf-d1ac47c2b958.jpeg)
 ![WhatsApp Image 2022-01-06 at 3 01 30 PM](https://user-images.githubusercontent.com/91945641/149195566-93e2a012-008c-4561-8c84-1cf650756a47.jpeg)
 ![WhatsApp Image 2021-12-06 at 11 29 11 PM](https://user-images.githubusercontent.com/91945641/149195576-542242d8-0e5e-4402-ba52-520048158767.jpeg)
+
+# _**Data**_
+Using SpotifyCharts as a reference, we turned to Spotify's web API, Spotipy. After we created a Spotify web developer account, we created an APP and obtained our Client ID and Client Secret. Moving onto audio feature analysis, we first need to retrieve each individual track’s URI. We used Spotipy’s search feature, requested an Oauth token, and then proceeded with individual track’s data. We inputted the track’s name under “Q”, “track” under “Type”, and Spotipy produced a long list of code. After copying a track’s URI, we utilised the audio feature search tool, and the API gave us a list of all the different audio features already analysed by Spotify. We recorded these values in an excel sheet, and repeated the steps with the other tracks. 
+
+We gathered a total of 100 data points, 25 songs over 4 years worth of charts. We compiled the data points into a singular excel sheet.
+
+# _**Methodology**_
+After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum & minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for 2018-21. 
+
+By looking at the values, there is a story emerging. The mean, median and standard deviation of tempo, energy and valence increases steadily between 2018 and 2021. This means that your favourite top songs, on average, are more likely to exhibit musical positivity, upbeat rhythms and energy over the years. However, the range of values of these audio features of top songs also expands over the years.
+
+Conversely, the descriptive statistical values for danceability and loudness decreases steadily between 2018 and 2021. This means that your favourite mainstream song is potentially less loud and dancelike and most top songs have similar range of lower danceability and loudness over the years. This contradicts the media article’s assumption that songs rise in danceability over the years. 
+
+The next step would be to investigate whether there is any relationship between the audio features that increase or decrease respectively. To do so, we exported this excel sheet into Stata and R respectively for data analysis. 
+	
+In order to study the relationship between a track’s position and its audio features, we turned to Stata to use a Simple Linear Regression (SLR) model. Regressions are used to determine the relationship between 2 or more variables, and quantitatively analyse how one variable changes when the other changes. We want to understand whether certain values of audio features will place a track higher or lower on the list. When these values change, we want to see whether their placement changes as well. 
+
+In order to study the relationships between audio features, we used multiple regression analysis(MLR). MLR allows us to test relationships between multiple independent variables and a single dependent variable. For instance, we can test the direction and strength of relationship between danceability (dependent) with tempo, energy, valence, loudness i.e. all audio features. And we did! We constructed multiple MLR relationships to define each audio feature as y and rest as x: this is get a full combination of every single relationship possible over 4 years. Many times multiple factors affect one variable linearly in real life even if they are correlated with each other: None can make a song with just a single audio feature. Testing relationships allow us to explore common themes and interesting threads of popular music.
+
+# _**Results**_
+As illustrated above, the top 2 songs of two different years have drastically different makeup of audio features. However, they share a similarity of high danceability. Upon discovering this, we examined whether we can predict a track’s placement on the top 25 by its audio features.
+
+With the Simple Linear Regression approach, we estimate the following equation:
+
+The track’s position is the dependent (y) variable, and danceability is the independent (x) variable. β0 is the constant, ie. what is the track’s position when danceability equals 0. For the purposes of our project, we disregard β0. β1 serves as the coefficient in front of danceability. In other words, when the danceability increases by 1 unit, by how much does a track shift up on the charts. Ei serves as the error term for our equation, accounting for any confounding factors or errors in our estimation. 
+
+Table 1 shows the Simple Linear Regression with our main explanatory variable, danceability, on chart placement. We find that at an aggregate level, danceability has a negative relationship with a track’s chart placement. A one unit increase in danceability is estimated to shift a track up by 8 positions on the top charts(in this case, a lower number, for example 1 or 2, translates to a higher position). A higher danceability value is associated with a higher placement on the charts. However, this coefficient is not statistically significant, ie. the results are likely to occur by chance. We wanted to examine how the 4 different years contributed to this coefficient, thus we broke it down in the following columns. 
+
+In column 2, if a 2018 song has a high danceability value, it is actually positively correlated with their position on the charts. However, this coefficient is not statistically significant. This relationship is also apparent in column 3 with 2019 tracks and 2019 positions.
+
+In column 4, if a song has a high danceability value, it is negatively associated with their position on the charts. Its coefficient is statistically significant at the 5% level; the results are not easily explained by chance alone. The same relationship and same statistical significance applies in column 5 with 2021 tracks and positions. 
+
+On one hand, we obtained 2 years with positive coefficients. On the other hand, we obtained 2 years with negative coefficients. This leads to our negative coefficient in column 1 with no statistical significance overall. 
+We observed that the relationship between positions and audio features fluctuate within each year between positive and negative, large and small coefficients. We continued to conduct SLR with other audio features against positions, such as valence and energy, but found danceability to have the most statistically significant results. Consistent with our findings, music is abstract; what makes a song popular has multiple confounding factors.
+
+
+
