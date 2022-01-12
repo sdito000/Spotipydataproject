@@ -1,6 +1,7 @@
 # **What Makes a Song Popular?**
 
-<img width="911" alt="Screen Shot 2022-01-09 at 1 24 34 PM" src="https://user-images.githubusercontent.com/91945641/148684009-aebdf365-4b97-4ad3-bd8a-a154a3f1662f.png">
+![iPhone 12, 12 Pro – 1](https://user-images.githubusercontent.com/91847452/149189842-909628f3-08ef-40c3-bc45-de3b0ff0ca8b.png)
+
 
 
 Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in predicting, using the popular streaming platform Spotify, if there exists a set pattern which makes a song hit the top charts. Some professional musicians claim they know exactly how to compose a top chart song. Psychologists say that dopamine is released when humans listen to their favorite song. So audio features, such as loudness and danceability, might play a role in higher levels of good feelings in the human brain. We are inspired to see if these claims are true, through our study of Spotify’s audio features. So, What makes a song Popular? 
