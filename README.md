@@ -150,7 +150,12 @@ As illustrated above, the top 2 songs of two different years have drastically di
 
 With the Simple Linear Regression approach, we estimate the following equation:
 
+
+<img width="630" alt="Screenshot 2022-01-12 at 18 04 00" src="https://user-images.githubusercontent.com/92088621/149196699-d34068b1-e9ea-49d1-b9e2-9435a66ebcd9.png">
+
 The track’s position is the dependent (y) variable, and danceability is the independent (x) variable. β0 is the constant, ie. what is the track’s position when danceability equals 0. For the purposes of our project, we disregard β0. β1 serves as the coefficient in front of danceability. In other words, when the danceability increases by 1 unit, by how much does a track shift up on the charts. Ei serves as the error term for our equation, accounting for any confounding factors or errors in our estimation. 
+
+<img width="839" alt="Screenshot 2022-01-12 at 17 43 58" src="https://user-images.githubusercontent.com/92088621/149193693-03c26b38-f3e6-42ad-926e-aa29ac8b0515.png">
 
 Table 1 shows the Simple Linear Regression with our main explanatory variable, danceability, on chart placement. We find that at an aggregate level, danceability has a negative relationship with a track’s chart placement. A one unit increase in danceability is estimated to shift a track up by 8 positions on the top charts(in this case, a lower number, for example 1 or 2, translates to a higher position). A higher danceability value is associated with a higher placement on the charts. However, this coefficient is not statistically significant, ie. the results are likely to occur by chance. We wanted to examine how the 4 different years contributed to this coefficient, thus we broke it down in the following columns. 
 
@@ -160,6 +165,5 @@ In column 4, if a song has a high danceability value, it is negatively associate
 
 On one hand, we obtained 2 years with positive coefficients. On the other hand, we obtained 2 years with negative coefficients. This leads to our negative coefficient in column 1 with no statistical significance overall. 
 We observed that the relationship between positions and audio features fluctuate within each year between positive and negative, large and small coefficients. We continued to conduct SLR with other audio features against positions, such as valence and energy, but found danceability to have the most statistically significant results. Consistent with our findings, music is abstract; what makes a song popular has multiple confounding factors.
-
 
 
