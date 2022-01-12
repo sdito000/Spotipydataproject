@@ -2,9 +2,12 @@
 
 ![iPhone 12, 12 Pro – 1](https://user-images.githubusercontent.com/91847452/149189842-909628f3-08ef-40c3-bc45-de3b0ff0ca8b.png)
 
+Music is something that has an important part in all of our lives. When we listen to our favorite song, we feel good throughout our whole body, since dopamine is released. In fact, listening to music is important to our health. That’s why we wanted to conduct a data science investigation about popular music. What makes a song popular? 
 
+## _**Motivation**_
 
-Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in predicting, using the popular streaming platform Spotify, if there exists a set pattern which makes a song hit the top charts. Some professional musicians claim they know exactly how to compose a top chart song. Psychologists say that dopamine is released when humans listen to their favorite song. So audio features, such as loudness and danceability, might play a role in higher levels of good feelings in the human brain. We are inspired to see if these claims are true, through our study of Spotify’s audio features. So, What makes a song Popular? 
+Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in the possibility of predicting, using the popular streaming platform Spotify, if there exists a set pattern which makes a song climb up the music charts. We aim to study audio features, which we can pull from Spotify’s API, of top music of the last few years. Is there a pattern? Are some audio features directly connected to others? Is there a defining audio feature that is prominent in all top songs? Is there a collective music taste, or are all the top songs different? We hope to answer these questions. 
+
 
 ## _**Overview**_
 Our project’s aim was to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of every November from the years 2018 to 2021. We used SpotifyCharts.com to obtain these songs.
