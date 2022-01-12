@@ -16,8 +16,6 @@ Our project’s aim was to use Spotify’s API to obtain data on audio features 
 
 Now, we want to familiarise you with the audio features we concentrated on. 
 
-<img width="911" alt="Screen Shot 2022-01-09 at 1 26 05 PM" src="https://user-images.githubusercontent.com/91945641/148684062-cce15468-bd63-4c10-8e61-c659ab319e9c.png">
-
 The features that we chose have to do with the mood and production properties of the song. We feel that these features (tempo, danceability, valence, energy, speechiness, loudness, and instrumentalness) really contribute to what attracts the average ear to top songs. 
 
 The description of audio features we have used, which we got from Spotify For Developers’ website, as follows:
