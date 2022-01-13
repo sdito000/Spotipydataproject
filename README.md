@@ -1,6 +1,11 @@
 # Spotipyproject
 
+
 # **What Makes a Song Popular?**
+
+Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, we can all talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together: by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other: what makes a song popular? 
+
+Introducing our team members:
 
 ![iPhone 12, 12 Pro – 1](https://user-images.githubusercontent.com/91847452/149189842-909628f3-08ef-40c3-bc45-de3b0ff0ca8b.png)
 
