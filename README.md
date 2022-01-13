@@ -1,15 +1,12 @@
 # Spotipyproject
 
-
 # **What Makes a Song Popular?**
-
-Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, we can all talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together: by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other: what makes a song popular? 
-
+Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, we can all talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together: by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other: what makes a song popular?
 Introducing our team members:
 
-![group members](https://user-images.githubusercontent.com/91847452/149316564-aff0f924-8e3b-4dd9-923b-77fa90141bf3.png)
 
-Music is something that has an important part in all of our lives. When we listen to our favorite song, we feel good throughout our whole body, since dopamine is released. In fact, listening to music is important to our health. That’s why we, Alara Alanbay, Stephanie Dito, Rafi Ahmed, and Michelle Liu, wanted to conduct a data science investigation about popular music. What makes a song popular? 
+
+![group members](https://user-images.githubusercontent.com/91847452/149316564-aff0f924-8e3b-4dd9-923b-77fa90141bf3.png)
 
 # Brief Overview // Executive Summary
 
@@ -19,18 +16,24 @@ Exploring what makes a song hit the top charts is a fascinating study that caugh
 
 ## Data
 
-We used the top 25 songs in the month of November of 2018, 2019, 2020, 2021. Our group went to an outside source for this, which was spotifycharts.com. We obtained 100 songs' data on danceability, speechability, valence, tempo, energy, and loudness. 
+We used the top 25 songs in the month of November of 2018, 2019, 2020, 2021. Our group went to an outside source for this, which was spotifycharts.com. We obtained 100 songs' data through Spotify’s API on danceability, speechability, valence, tempo, energy, and loudness. 
 
-## Methods
+## Methods 
 
+We compiled the data we found on 100 songs in an Excel spreadsheet, and then found the mean, median, maximum, minimum, and finally standard deviation. 
+
+By obtaining descriptive statistics, we used simple linear regression (SLR) and multiple linear regression (MLR) to determine whether there is a relationship between any audio features.
 
 ## Results 
 
+Summary of our results
+
 ## Conclusion 
 
+Summary of Conclusion 
 
 
-Here is what we found: 
+In further detail, Here is what we found: 
 
 ## _**Purpose**_
 
@@ -48,6 +51,9 @@ The features that we chose have to do with the mood and production properties of
 
 Here is a description of the audio features we have used: 
 
+
+![audio features](https://user-images.githubusercontent.com/91847452/149315531-c69e90ee-c404-40e3-b1b3-48f80e005629.png)
+
 **Danceability**: Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.
 
 **Energy**: Energy represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
@@ -61,7 +67,37 @@ Here is a description of the audio features we have used:
 **Valence**: Valence describes the musical positiveness conveyed by a track. 
 
 
-# _**Examples**_
+# _**Justification**_
+
+Understanding what makes a song popular will have great influence on business models that depend on popular music, such as radio stations, online audio streaming services (such as Spotify), and record labels. Hit Song Science will have a significant impact on the music industry. If the popularity of a song can be predicted before its release, it would create a commercial opportunity. Songwriters and composers will be able to focus on key elements that predict the song's popularity, and the budget will be better allocated. According to computer science students at Stanford University, HSS is a problem that the music industry is currently working on to solve (). Their research shows which audio features are the most influential elements that make a song popular. Inspired by their research, we wanted to establish a foundation for understanding whether predicting song popularity would be possible in the future. 
+
+
+
+<img width="468" alt="Justification picture 1" src="https://user-images.githubusercontent.com/91945641/149319286-875a37bf-12ee-416d-9d86-f07c473dc43d.png">
+
+<img width="468" alt="justification picture 2" src="https://user-images.githubusercontent.com/91945641/149319560-f3d6555d-6f07-4065-b396-5b9e570afe24.png">
+Given the commercial significance of a success formula, there are media narratives on song popularity. These are some articles talking about which combination of audio features make a song popular. Notice how they say all songs sound the same - well does Easy on Me and Taki Taki sound the same to anyone? Conversely, while they have very different compositions of audio features, they are only two examples of megahit songs, so are they outliers? 
+
+The second excerpt has a highlighted portion - songs that made the charts were more danceable, party going and tend to be happier. In terms of their translation to audio features, danceable is self-explanatory, party going is probably tempo and happier is higher valence
+
+ This sentence assumes two things: firstly, the audio features are impacting positioning and secondly, there is a sort of relationship between the audio features - in the sense they are rising all at the same time. Hence, it is important for us to investigate to what extent these assumptions hold true: Our results contribute to reconstructing media narratives and commercial music production value for music executives and artists alike.
+
+
+# _**Aim**_
+
+Our project’s aim is to gain more insight on the factors that make a song popular. We want to see if there exists a formula that artists can comply with that will make their song reach the top charts. Another aspect of our aim is to see if popular music has any significant relationships among audio features. 
+
+
+# _**Data**_
+
+Using SpotifyCharts as a reference, we turned to Spotify's web API, Spotipy. After we created a Spotify web developer account, we created an APP and obtained our Client ID and Client Secret. Moving onto audio feature analysis, we first need to retrieve each individual track’s URI. We used Spotipy’s search feature, requested an Oauth token, and then proceeded with individual track’s data. We inputted the track’s name under “Q”, “track” under “Type”, and Spotipy produced a long list of code. After copying a track’s URI, we utilised the audio feature search tool, and the API gave us a list of all the different audio features already analysed by Spotify. We recorded these values in an excel sheet, and repeated the steps with the other tracks. 
+
+We gathered a total of 100 data points, 25 songs over 4 years worth of charts. We compiled the data points into a singular excel sheet. These songs were the 25 songs on Spotfiy Global with the highest weekly streams for the first week of November. 
+
+We extracted six audio features for our data analysis - tempo, valence, danceability, energy, loudness and speechiness. All the audio features except tempo have values between 0 and 1 with 1 being the highest level and 0 being the lowest. Values for loudness range between -60dB and 0, with 0 being no volume at all. With tempo being a measure of beats per minute, the range of values for tempo could theoretically be nonexistent.
+
+
+## Examples
 
 We want to show you some top songs, so you can get an idea how the audio features values manifests in a top song. 
 
@@ -91,7 +127,7 @@ https://user-images.githubusercontent.com/91945641/148683640-040045ad-3522-4f05-
 
 Note: the features listed in the radar charts are a measure between 0 and 1. 
 
-## A Puzzle
+## A Puzzle // Initial Observations
 
 Taki Taki is the number one hit in November of 2018, while Easy on Me is the number one hit in November of 2021. As we can notice with these audio features, the two hit songs are quite different. 
 
@@ -99,33 +135,34 @@ How are they different from a data analyst’s standpoint? “Taki Taki” has a
 
 Another key difference is the energy levels, as “Taki Taki” clearly has a higher energy standing. 
 
-Also we see some sort of correlation with energy and danceability, which we wanted to explore further.
+Also, we see some sort of correlation with energy and danceability, which we want to explore further.
 
-From these songs’ data, we notice an irrelevance of speechiness here. Adele has a very low speechability as opposed to a relatively higher speechability in DJ Snake’s song. But when you listen to the music, it seems like Adele is singing more, while “Taki Taki” seems more instrumental. Our objective for studying speechiness was to see if more or less singing was more desirable to the human ear. But, this analysis shows that speechability measures do not help to explain our objective, as Adele’s top song is characterized by her lyrics. 
+From comparing and contrasting these two #1 songs, we notice an irrelevance of speechiness here. Adele has a very low speechability as opposed to a relatively higher speechability in DJ Snake’s song. But when you listen to the music, it seems like Adele is singing more, while “Taki Taki” seems more instrumental. Our objective for studying speechiness was to see if more or less singing was more desirable to the human ear. But, this analysis shows that speechability measures do not help to explain our objective, as Adele’s top song is characterized by her lyrics. 
 
 The only answer to our initial question that can be drawn from this comparison is that Both songs have high danceability, so that might contribute to the popularity of a song. 
+
+We will explore that further. 
 
 ### More Examples
 
 ![WhatsApp Image 2021-12-04 at 10 28 24 AM (2)](https://user-images.githubusercontent.com/91945641/148684312-e8f53094-9f5c-4e63-95ae-32ae70ca7752.jpeg)
 ![WhatsApp Image 2021-12-04 at 10 28 25 AM (1)](https://user-images.githubusercontent.com/91945641/148689454-a1d97e7a-2ca7-4779-910a-dcf493bc3d61.jpeg)
 
-The top song in November of 2019 is "Dance Monkey" by Tones and I and the top song in November 2020 is "positions" by Ariana Grande.
+The top song in November of 2019 is "Dance Monkey" by Tones and I and the top song in November 2020 is "positions" by Ariana Grande. 
 
 
-
-![WhatsApp Image 2022-01-06 at 5 55 51 PM](https://user-images.githubusercontent.com/91945641/149195551-a7d582b6-d1d4-4e06-8548-6025707dcd91.jpeg)
-![WhatsApp Image 2022-01-06 at 5 55 51 PM (1)](https://user-images.githubusercontent.com/91945641/149195554-3e8e6179-4546-442e-95bf-d1ac47c2b958.jpeg)
-![WhatsApp Image 2022-01-06 at 3 01 30 PM](https://user-images.githubusercontent.com/91945641/149195566-93e2a012-008c-4561-8c84-1cf650756a47.jpeg)
-![WhatsApp Image 2021-12-06 at 11 29 11 PM](https://user-images.githubusercontent.com/91945641/149195576-542242d8-0e5e-4402-ba52-520048158767.jpeg)
-
-# _**Data**_
-Using SpotifyCharts as a reference, we turned to Spotify's web API, Spotipy. After we created a Spotify web developer account, we created an APP and obtained our Client ID and Client Secret. Moving onto audio feature analysis, we first need to retrieve each individual track’s URI. We used Spotipy’s search feature, requested an Oauth token, and then proceeded with individual track’s data. We inputted the track’s name under “Q”, “track” under “Type”, and Spotipy produced a long list of code. After copying a track’s URI, we utilised the audio feature search tool, and the API gave us a list of all the different audio features already analysed by Spotify. We recorded these values in an excel sheet, and repeated the steps with the other tracks. 
-
-We gathered a total of 100 data points, 25 songs over 4 years worth of charts. We compiled the data points into a singular excel sheet.
 
 # _**Methodology**_
 After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum & minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for 2018-21. 
+
+<img width="468" alt="Picture1" src="https://user-images.githubusercontent.com/91945641/149323683-11d6d211-e85a-4aaa-9b4a-3d1ac8ccca04.png">
+<img width="468" alt="average 2" src="https://user-images.githubusercontent.com/91945641/149323483-5da4e986-4918-4dbb-8516-7dd99ceda54a.png">
+<img width="468" alt="average3" src="https://user-images.githubusercontent.com/91945641/149323492-06231feb-de42-43c1-a0ed-735712a3cd0d.png">
+<img width="468" alt="average 4" src="https://user-images.githubusercontent.com/91945641/149323508-464965b5-a371-4ce9-a08c-be9540ad98fb.png">
+<img width="468" alt="average 5" src="https://user-images.githubusercontent.com/91945641/149323522-2e1f3730-aca4-456a-8a28-9dd858dda592.png">
+<img width="468" alt="average6" src="https://user-images.githubusercontent.com/91945641/149323532-7a3c7901-35cc-4467-9fed-661992f23747.png">
+
+
 
 By looking at the values, there is a story emerging. The mean, median and standard deviation of tempo, energy and valence increases steadily between 2018 and 2021. This means that your favourite top songs, on average, are more likely to exhibit musical positivity, upbeat rhythms and energy over the years. However, the range of values of these audio features of top songs also expands over the years.
 
@@ -137,8 +174,16 @@ In order to study the relationship between a track’s position and its audio fe
 
 In order to study the relationships between audio features, we used multiple regression analysis(MLR). MLR allows us to test relationships between multiple independent variables and a single dependent variable. For instance, we can test the direction and strength of relationship between danceability (dependent) with tempo, energy, valence, loudness i.e. all audio features. And we did! We constructed multiple MLR relationships to define each audio feature as y and rest as x: this is get a full combination of every single relationship possible over 4 years. Many times multiple factors affect one variable linearly in real life even if they are correlated with each other: None can make a song with just a single audio feature. Testing relationships allow us to explore common themes and interesting threads of popular music.
 
+## Visualising Each Year’s Mean Value 
+
+![WhatsApp Image 2022-01-13 at 9 32 57 AM](https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg)
+
+Add a description
+
 # _**Results**_
 As illustrated above, the top 2 songs of two different years have drastically different makeup of audio features. However, they share a similarity of high danceability. Upon discovering this, we examined whether we can predict a track’s placement on the top 25 by its audio features.
+
+## Simple Linear Regression (SLR) 
 
 With the Simple Linear Regression approach, we estimate the following equation:
 
@@ -156,6 +201,63 @@ In column 2, if a 2018 song has a high danceability value, it is actually positi
 In column 4, if a song has a high danceability value, it is negatively associated with their position on the charts. Its coefficient is statistically significant at the 5% level; the results are not easily explained by chance alone. The same relationship and same statistical significance applies in column 5 with 2021 tracks and positions. 
 
 On one hand, we obtained 2 years with positive coefficients. On the other hand, we obtained 2 years with negative coefficients. This leads to our negative coefficient in column 1 with no statistical significance overall. 
+
 We observed that the relationship between positions and audio features fluctuate within each year between positive and negative, large and small coefficients. We continued to conduct SLR with other audio features against positions, such as valence and energy, but found danceability to have the most statistically significant results. Consistent with our findings, music is abstract; what makes a song popular has multiple confounding factors.
 
+Danceability has the most significant results, it sounds more intuitive that they will all affect each other equally - why is there a variable relationship, there are differing relationships
 
+## Multiple Linear Regression
+
+
+<img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png">
+
+Here the table shows the results of meaningful multiple regression results. By meaningful, we mean results which generally have only around 10% chance of being a random error. While statisticians tend to hold only 5% error and we have upheld that principal for SLR results, our sample size is quite limited and the time period for our data collection is very specific. Therefore we recognise that extending error rate can allow us to look at more relationships that may have been statistically significant i,.e. P value les than 0.05, if sample size and time period for data collection was wider. 
+
+The estimate indicates the strength and direction of the relationship. Here all the relationships are positive. An estimate of 0.49 between  energy and danceability in 2018 means that if energy increases by 1 unit, danceability increases by 0.49 unit. The estimates that are 0 are ones that have very negligible non-zero increases in unit. While the relationships vary in strength and statistical significance, some common themes emerge over the years. 
+
+Both energy and tempo have a meaningful relationship with valence in 2019 and the meaningful relationship between tempo and valence continues in 2020 while tempo and energy have a positive meaningful relationship in 2020 and 2021. This provides a more nuanced look into the nature of these audio features which seemed to increase in mean between 2018 and 2021 according to the descriptive statistics. 
+
+The simple linear regression analysis on chart positioning only found a statistically significant relationship between danceability and chart position. Hence, it is important to look from the lens of danceability and see if it has meaningful relationships with other audio features. Here we can see that energy and danceability have a positive meaningful relationship in 2018 and 2021. Valence has a positive meaningful relationship with danceability in 2019 and 2020 while tempo has a positive meaningful relationship with danceability in 2019, 2020 and 2021. 
+
+![WhatsApp Image 2022-01-06 at 5 55 51 PM](https://user-images.githubusercontent.com/91945641/149195551-a7d582b6-d1d4-4e06-8548-6025707dcd91.jpeg)
+
+![WhatsApp Image 2022-01-06 at 5 55 51 PM (1)](https://user-images.githubusercontent.com/91945641/149195554-3e8e6179-4546-442e-95bf-d1ac47c2b958.jpeg)
+
+![WhatsApp Image 2022-01-06 at 3 01 30 PM](https://user-images.githubusercontent.com/91945641/149195566-93e2a012-008c-4561-8c84-1cf650756a47.jpeg)
+
+![WhatsApp Image 2021-12-06 at 11 29 11 PM](https://user-images.githubusercontent.com/91945641/149195576-542242d8-0e5e-4402-ba52-520048158767.jpeg)
+
+Key points to note:
+
+
+1.	The points in the scatter plot are widely dispersed and there is a lot of variance. This makes it difficult to establish a meaningful relationship between the variables. 
+2.	The outliers are marked by their album covers. There are a lot of outliers which means even if there is a meaningful relationship there a considerable number of songs that do not fit the mold is it is difficult to generalize, 
+
+
+
+# Conclusion 
+
+Our objective was to explore whether we can predict song popularity through its audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed…. 
+
+Music is abstract. It makes sense that there was no set pattern, no defining audio features, and no similar songs. All songs are different and all tastes are different. People may listen to a song because they like the lyrics. Or, someone may like the artist or the producer. Perhaps, someone likes the genre placement. After all, most people have a short attention span with music – they get bored of the same song repeatedly. These reasons mean that Spotify’s algorithm for determining audio features cannot tell us what we wanted to hear. There are other factors that make music popular, which cannot be studied through our data analysis. 
+
+Other factors 
+
+Lyrics 
+Previous work and popularity 
+Genre placement 
+Whether it is innovative/original
+Music is abstract 
+
+
+It is important to refer to the limitations we have faced that require further research. First of all, we analysed the top 25 most globally streamed songs for our research. If we were to evaluate a specific country’s top 25 most streamed songs, we might have gotten different results. Secondly, we analyse a small sample of songs from a short period of time. We only look over the top 25 songs from 4 consecutive years: 2018, 2019, 2020 and 2021. Next, with the wide presence of social media, song popularity can be altered according to the social influence we receive. According to Pachet, “[kn]owing that a song is a hit…influences our liking” (2012). One social media platform that comes to mind is TikTok. We noticed that the majority of songs we analyzed are (or were at one point) widely used songs on TikTok. Lastly, a change of website where we acquired our data might cause different results. There are other websites such as Billboard that also provide the same type of data. With these limitations in place, our result is that it is not possible to predict song popularity. 
+	Moving forward, further research is needed to eliminate the limitations mentioned above. Once predicting song popularity is accomplished, we can investigate whether automatic generation of hit songs is possible through the same audio features we analysed. 
+
+
+# Appendix 
+
+# References 
+
+https://www.pnas.org/content/116/9/3793
+https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science
+![image](https://user-images.githubusercontent.com/91945641/149324064-3682e9ef-d9c4-4bdf-ae5e-0f7bdf49fd7f.png)
