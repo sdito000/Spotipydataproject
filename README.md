@@ -259,5 +259,8 @@ It is important to refer to the limitations we have faced that require further r
 # References 
 
 https://www.pnas.org/content/116/9/3793
+
 https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science
-![image](https://user-images.githubusercontent.com/91945641/149324064-3682e9ef-d9c4-4bdf-ae5e-0f7bdf49fd7f.png)
+
+
+# Thanks for listening!
