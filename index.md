@@ -1,6 +1,6 @@
 
 # **What Makes a Song Popular?**
-Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, we can all talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together: by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other: what makes a song popular?
+Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, each of us can talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together: by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other: what makes a song popular?
 Introducing our team members:
 
 
@@ -35,8 +35,6 @@ Summary of Conclusion
 In further detail, Here is what we found: 
 
 ## _**Purpose**_
-
-Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, we can all talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together: by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other: what makes a song popular? Furthermore, we realised that songs have scientifically proven healing and pleasing properties.
 
 Starting from our general question “What makes a song popular?”, we wondered if predicting song popularity is possible. Hit Song Science (HSS), a term that was first used by Mike McCready, is about exploring whether song popularity can be predicted through audio features put into machine learning. While the validity of HSS continues to be a debate in the music industry, producers and record label companies are hopeful that a song’s popularity can be predicted through its audio features. 
 
