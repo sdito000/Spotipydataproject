@@ -105,7 +105,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 
 ![Taki taki album](https://user-images.githubusercontent.com/91945641/148683880-55de9461-db89-44cf-9cd4-e81e3ae32ba5.png)
 
-https://user-images.githubusercontent.com/91945641/148683616-e575c3eb-3672-4e8b-8800-92a7fb4a7266.mp4
+https://audio.jukehost.co.uk/rmjuk0Xw6LjAvn3EUBj9wFNPyOOSxIJP
 
 
 <img width="405" alt="Screen Shot 2022-01-13 at 11 43 51 AM" src="https://user-images.githubusercontent.com/91945641/149324475-355f2bc5-ceb3-4798-a8a5-093171887717.png">
@@ -116,7 +116,7 @@ https://user-images.githubusercontent.com/91945641/148683616-e575c3eb-3672-4e8b-
 
 ![adele album](https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg)
 
-https://user-images.githubusercontent.com/91945641/148683640-040045ad-3522-4f05-b2ea-a2d7971c671c.mp4
+https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc
 
 <img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png">
 
