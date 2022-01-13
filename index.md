@@ -25,7 +25,7 @@ By obtaining descriptive statistics, we used simple linear regression (SLR) and 
 
 ## Results 
 
-According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meangiful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
+After running Simple Linear Regressions, we found that over 4 years of data, a high danceability value is associated with a higher position on the charts. According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meangiful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
 
 ## Conclusion 
 
@@ -232,7 +232,7 @@ The above are two scatter plots displayed of two meaningful relationships in two
 
 # Conclusion 
 
-Our objective was to explore whether we can predict song popularity through its audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed Our objective was to explore whether we can predict song popularity through its audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed [SLR]
+Our objective was to explore whether we can predict song popularity through its audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed Our objective was to explore whether we can predict song popularity through its audio features. As a group, we kept asking ourselves, “what makes a song popular?” We examined the relationship between a track's position on the charts and their danceability value. Although we found an overall negative relationship, we found mixed results when we divided up the coefficient by year. With 2 years of negative coefficients and 2 years of positive coefficients, there is no clear answer on if there is a stable relationship between the 2 variables. 
 
 We also analysed whether there were any meangingful relationships between audio features. Given that the SLR results found a statistically signifcant relationship between chart positioning and danceability only, it is important to note that danceability and tempo had a meaningful relationship between 2019-21 while valence had a meanginful relationship 2019-20 and energy in 2018 with danceability respectively. Therefore during these years, songs that were most streamed by the average person had high danceability cressponding with high tempo and valence. This formula could guarantee a viral hit song to an extent and may do so in the future. The scatter plots depicted 
 
