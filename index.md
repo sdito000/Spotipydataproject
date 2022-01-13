@@ -41,7 +41,7 @@ Music is a tool that has unifying characteristics. Even though we all have diffe
 Starting from our general question “What makes a song popular?”, we wondered if predicting song popularity is possible. Hit Song Science (HSS), a term that was first used by Mike McCready, is about exploring whether song popularity can be predicted through audio features put into machine learning. While the validity of HSS continues to be a debate in the music industry, producers and record label companies are hopeful that a song’s popularity can be predicted through its audio features. 
 
 
-## _**Overview**_
+## _**Preface**_
 Our project’s aim was to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of every November from the years 2018 to 2021. We used SpotifyCharts.com to obtain these songs.
 
 Now, we want to familiarise you with the audio features we concentrated on. 
