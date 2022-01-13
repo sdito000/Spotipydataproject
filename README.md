@@ -6,9 +6,32 @@
 
 Music is something that has an important part in all of our lives. When we listen to our favorite song, we feel good throughout our whole body, since dopamine is released. In fact, listening to music is important to our health. That’s why we, Alara Alanbay, Stephanie Dito, Rafi Ahmed, and Michelle Liu, wanted to conduct a data science investigation about popular music. What makes a song popular? 
 
-## _**Motivation**_
+# Brief Overview // Executive Summary
+
+## Motivation
 
 Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in the possibility of predicting, using the popular streaming platform Spotify, if there exists a set pattern which makes a song climb up the music charts. We aim to study audio features, which we can pull from Spotify’s API, of top music of the last few years. Is there a pattern? Are some audio features directly connected to others? Is there a defining audio feature that is prominent in all top songs? Is there a collective music taste, or are all the top songs different? We hope to answer these questions. 
+
+## Data
+
+We used the top 25 songs in the month of November of 2018, 2019, 2020, 2021. Our group went to an outside source for this, which was spotifycharts.com. We obtained 100 songs' data on danceability, speechability, valence, tempo, energy, and loudness. 
+
+## Methods
+
+
+## Results 
+
+## Conclusion 
+
+
+
+Here is what we found: 
+
+## _**Purpose**_
+
+Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, we can all talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together: by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other: what makes a song popular? Furthermore, we realised that songs have scientifically proven healing and pleasing properties.
+
+Starting from our general question “What makes a song popular?”, we wondered if predicting song popularity is possible. Hit Song Science (HSS), a term that was first used by Mike McCready, is about exploring whether song popularity can be predicted through audio features put into machine learning. While the validity of HSS continues to be a debate in the music industry, producers and record label companies are hopeful that a song’s popularity can be predicted through its audio features. 
 
 
 ## _**Overview**_
@@ -18,15 +41,13 @@ Now, we want to familiarise you with the audio features we concentrated on.
 
 The features that we chose have to do with the mood and production properties of the song. We feel that these features (tempo, danceability, valence, energy, speechiness, loudness, and instrumentalness) really contribute to what attracts the average ear to top songs. 
 
-The description of audio features we have used, which we got from Spotify For Developers’ website, as follows:
+Here is a description of the audio features we have used: 
 
 **Danceability**: Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.
 
 **Energy**: Energy represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
 
-**Instrumentalness**: Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. 
-
-**Loudness**: Loudness describes how loud the track is.
+**Loudness**: The overall loudness throughout the entire track.
 
 **Speechiness**: Speechiness detects the presence of spoken words in a track. 
 
