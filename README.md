@@ -108,7 +108,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 https://user-images.githubusercontent.com/91945641/148683616-e575c3eb-3672-4e8b-8800-92a7fb4a7266.mp4
 
 
-<img width="395" alt="Screen Shot 2022-01-13 at 10 22 18 AM" src="https://user-images.githubusercontent.com/91945641/149312173-ebe8d019-2d3c-4d50-acb5-290874680c7d.png">
+<img width="405" alt="Screen Shot 2022-01-13 at 11 43 51 AM" src="https://user-images.githubusercontent.com/91945641/149324475-355f2bc5-ceb3-4798-a8a5-093171887717.png">
 
 
 
@@ -118,7 +118,7 @@ https://user-images.githubusercontent.com/91945641/148683616-e575c3eb-3672-4e8b-
 
 https://user-images.githubusercontent.com/91945641/148683640-040045ad-3522-4f05-b2ea-a2d7971c671c.mp4
 
-<img width="395" alt="Screen Shot 2022-01-13 at 10 21 24 AM" src="https://user-images.githubusercontent.com/91945641/149312175-1b89eb61-c6e8-4dc4-ac83-a24ea9fa2298.png">
+<img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png">
 
 
 ![WhatsApp Image 2021-12-04 at 10 28 24 AM (1)](https://user-images.githubusercontent.com/91945641/148684206-6d948b8d-70f6-48fc-be20-9fdabdc69ef3.jpeg)
