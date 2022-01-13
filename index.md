@@ -25,7 +25,7 @@ By obtaining descriptive statistics, we used simple linear regression (SLR) and 
 
 ## Results 
 
-Summary of our results
+According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meangiful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
 
 ## Conclusion 
 
@@ -217,19 +217,27 @@ The simple linear regression analysis on chart positioning only found a statisti
 
 <img width="1055" alt="Screen Shot 2022-01-13 at 12 42 54 PM" src="https://user-images.githubusercontent.com/91945641/149332317-6ac01586-4a65-4c2c-b967-c4229fbe5019.png">
 
-Key points to note:
+![WhatsApp Image 2022-01-06 at 5 55 51 PM](https://user-images.githubusercontent.com/91945641/149195551-a7d582b6-d1d4-4e06-8548-6025707dcd91.jpeg)
+
+
+![WhatsApp Image 2022-01-06 at 3 01 30 PM](https://user-images.githubusercontent.com/91945641/149195566-93e2a012-008c-4561-8c84-1cf650756a47.jpeg)
+
+
+The above are two scatter plots displayed of two meaningful relationships in two different years. The two plots are depicted to show the common themes, as bullet-pointed below, that are shared by scatter plots depicting all the meaningful relationships that were discovered. 
 
 
 1.	The points in the scatter plot are widely dispersed and there is a lot of variance. This makes it difficult to establish a meaningful relationship between the variables. 
-2.	The outliers are marked by their album covers. There are a lot of outliers which means even if there is a meaningful relationship there a considerable number of songs that do not fit the mold is it is difficult to generalize, 
+2.	The outliers are marked by their album covers. There are a lot of outliers which means even if there is a meaningful relationship there a considerable number of songs that do not fit the mold. Hence, it is difficult to generalize to the thousands of songs that are released every year or even the hundreds of songs that can become well-known or hits. 
 
 
 
 # Conclusion 
 
-Our objective was to explore whether we can predict song popularity through its audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed…. 
+Our objective was to explore whether we can predict song popularity through its audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed Our objective was to explore whether we can predict song popularity through its audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed [SLR]
 
-Music is abstract. It makes sense that there was no set pattern, no defining audio features, and no similar songs. All songs are different and all tastes are different. People may listen to a song because they like the lyrics. Or, someone may like the artist or the producer. Perhaps, someone likes the genre placement. After all, most people have a short attention span with music – they get bored of the same song repeatedly. These reasons mean that Spotify’s algorithm for determining audio features cannot tell us what we wanted to hear. There are other factors that make music popular, which cannot be studied through our data analysis. 
+We also analysed whether there were any meangingful relationships between audio features. Given that the SLR results found a statistically signifcant relationship between chart positioning and danceability only, it is important to note that danceability and tempo had a meaningful relationship between 2019-21 while valence had a meanginful relationship 2019-20 and energy in 2018 with danceability respectively. Therefore during these years, songs that were most streamed by the average person had high danceability cressponding with high tempo and valence. This formula could guarantee a viral hit song to an extent and may do so in the future. The scatter plots depicted 
+
+However, these relationships are not everlasting neither can they be generalised to all music given our very limited sample size. Firstly, as scatter plots have depicted, there is a lot of spread and outliers. Secondly,music is abstract. It makes sense that there was no set pattern, no defining audio features, and no similar songs. All songs are different and all tastes are different. People may listen to a song because they like the lyrics. Or, someone may like the artist or the producer. Perhaps, someone likes the genre placement. After all, most people have a short attention span with music – they get bored of the same song repeatedly. These reasons mean that Spotify’s algorithm for determining audio features cannot tell us what we wanted to hear. There are other factors that make music popular, which cannot be studied through our data analysis. 
 
 Other factors 
 
@@ -245,7 +253,7 @@ It is important to refer to the limitations we have faced that require further r
 
 
 # Appendix 
-
+**R code will be attached with pdf file containing URL Link of this github page. 
 
 # References 
 
