@@ -46,23 +46,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 https://user-images.githubusercontent.com/91945641/148683616-e575c3eb-3672-4e8b-8800-92a7fb4a7266.mp4
 
 
-Tempo
-95.881
-
-Danceability
-0.842
-
-Valence 
-0.617
-
-Energy 
-0.801
-
-Loudness
--4.167
-
-Speechability 
-0.228
+<img width="395" alt="Screen Shot 2022-01-13 at 10 22 18 AM" src="https://user-images.githubusercontent.com/91945641/149312173-ebe8d019-2d3c-4d50-acb5-290874680c7d.png">
 
 
 
@@ -72,25 +56,6 @@ Speechability
 
 https://user-images.githubusercontent.com/91945641/148683640-040045ad-3522-4f05-b2ea-a2d7971c671c.mp4
 
-
-
-Tempo
-141.981
-
-Danceability
-0.604
-
-Valence 
-0.13
-
-Energy 
-0.366
-
-Loudness
--7.519
-
-Speechability 
-0.028
 
 
 ![WhatsApp Image 2021-12-04 at 10 28 24 AM (1)](https://user-images.githubusercontent.com/91945641/148684206-6d948b8d-70f6-48fc-be20-9fdabdc69ef3.jpeg)
