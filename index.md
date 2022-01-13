@@ -34,12 +34,13 @@ Summary of Conclusion
 
 In further detail, Here is what we found: 
 
-## _**Purpose**_
+# _**Purpose**_
 
-Starting from our general question “What makes a song popular?”, we wondered if predicting song popularity is possible. Hit Song Science (HSS), a term that was first used by Mike McCready, is about exploring whether song popularity can be predicted through audio features put into machine learning. While the validity of HSS continues to be a debate in the music industry, producers and record label companies are hopeful that a song’s popularity can be predicted through its audio features. 
+Starting from our general question “What makes a song popular?”, we wondered if predicting song popularity is possible. _Hit Song Science_ (HSS), a term that was first used by Mike McCready, is about exploring whether song popularity can be predicted through audio features put into machine learning. While the validity of HSS continues to be a debate in the music industry, producers and record label companies are hopeful that a song’s popularity can be predicted through its audio features. 
 
+We want to connect _Hit Song Science_ to Data analysis of Spotify's API. Is there a pattern? Are some audio features directly connected to others? Is there a defining audio feature that is prominent in all top songs? Is there a collective music taste, or are all the top songs different?
 
-## _**Preface**_
+# _**Preface**_
 Our project’s aim was to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of every November from the years 2018 to 2021. We used SpotifyCharts.com to obtain these songs.
 
 Now, we want to familiarise you with the audio features we concentrated on. 
@@ -73,6 +74,7 @@ Understanding what makes a song popular will have great influence on business mo
 <img width="468" alt="Justification picture 1" src="https://user-images.githubusercontent.com/91945641/149319286-875a37bf-12ee-416d-9d86-f07c473dc43d.png">
 
 <img width="468" alt="justification picture 2" src="https://user-images.githubusercontent.com/91945641/149319560-f3d6555d-6f07-4065-b396-5b9e570afe24.png">
+
 Given the commercial significance of a success formula, there are media narratives on song popularity. These are some articles talking about which combination of audio features make a song popular. Notice how they say all songs sound the same - well does Easy on Me and Taki Taki sound the same to anyone? Conversely, while they have very different compositions of audio features, they are only two examples of megahit songs, so are they outliers? 
 
 The second excerpt has a highlighted portion - songs that made the charts were more danceable, party going and tend to be happier. In terms of their translation to audio features, danceable is self-explanatory, party going is probably tempo and happier is higher valence
@@ -103,6 +105,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 ![Taki taki album](https://user-images.githubusercontent.com/91945641/148683880-55de9461-db89-44cf-9cd4-e81e3ae32ba5.png)
 
 https://audio.jukehost.co.uk/rmjuk0Xw6LjAvn3EUBj9wFNPyOOSxIJP 
+_Click to hear a sample of "Taki Taki"._
 
 
 <img width="405" alt="Screen Shot 2022-01-13 at 11 43 51 AM" src="https://user-images.githubusercontent.com/91945641/149324475-355f2bc5-ceb3-4798-a8a5-093171887717.png">
@@ -114,6 +117,7 @@ https://audio.jukehost.co.uk/rmjuk0Xw6LjAvn3EUBj9wFNPyOOSxIJP
 ![adele album](https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg)
 
 https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc 
+_Click to hear a sample of "Easy on Me".
 
 <img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png">
 
@@ -122,7 +126,7 @@ https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc
 
 ![WhatsApp Image 2021-12-04 at 10 28 25 AM](https://user-images.githubusercontent.com/91945641/148684185-c7be63a3-fd2b-4398-bacf-3617e04b76bd.jpeg)
 
-Note: the features listed in the radar charts are a measure between 0 and 1. 
+_Note: The features listed in the radar charts are a measure between 0 and 1. 
 
 ## A Puzzle // Initial Observations
 
