@@ -255,6 +255,220 @@ It is important to refer to the limitations we have faced that require further r
 
 # Appendix 
 
+R Notebook
+Hide
+library(pwr)
+library(pwr2)
+library(MBESS)
+Hide
+pwr.r.test(r = .21, sig.level = .05, power =.80)
+
+     approximate correlation power calculation (arctangh transformation) 
+
+              n = 174.8439
+              r = 0.21
+      sig.level = 0.05
+          power = 0.8
+    alternative = two.sided
+Hide
+library(supernova)
+library(readr)
+library(tidyverse)
+library(ggplot2)
+library(lm.beta)
+library(ggpubr)
+library(mosaic)
+library(Hmisc)
+library(car)
+library(plyr)
+Hide
+spotify1 <- read_csv("spotify1.csv")
+[1m[1mRows: [1m[22m[34m[34m25[34m[39m [1m[1mColumns: [1m[22m[34m[34m24[34m[39m
+[36m──[39m [1m[1mColumn specification[1m[22m [36m───────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m ","
+[32mdbl[39m (24): tempoa, tempob, tempoc, tempod, energya, energyb, energyc, energyd, dancea, danceb, dancec, danced, louda...
+
+[36mℹ[39m Use [38;5;251m[48;5;235m[38;5;251m[48;5;235m`spec()`[48;5;235m[38;5;251m[49m[39m to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set [38;5;251m[48;5;235m[38;5;251m[48;5;235m`show_col_types = FALSE`[48;5;235m[38;5;251m[49m[39m to quiet this message.
+Hide
+rcorr(as.matrix(spotify1[,c("speecha","louda")], type="pearson"))
+        speecha louda
+speecha    1.00  0.01
+louda      0.01  1.00
+
+n= 25 
+
+
+P
+        speecha louda 
+speecha         0.9514
+louda   0.9514        
+Hide
+rcorr(as.matrix(spotify1[,c("speechb","loudb")], type="pearson"))
+        speechb loudb
+speechb    1.00 -0.13
+loudb     -0.13  1.00
+
+n= 25 
+
+
+P
+        speechb loudb 
+speechb         0.5468
+loudb   0.5468        
+Hide
+rcorr(as.matrix(spotify1[,c("speechc","loudc")], type="pearson"))
+Hide
+rcorr(as.matrix(spotify1[,c("speechd","loudd")], type="pearson"))
+Hide
+rcorr(as.matrix(spotify1[,c("dancea","vala", "energya", "tempoa")], type="pearson"))
+Hide
+rcorr(as.matrix(spotify1[,c("danceb","valb", "energyb", "tempob")], type="pearson"))
+Hide
+rcorr(as.matrix(spotify1[,c("dancec","valc", "energyc", "tempoc")], type="pearson"))
+Hide
+multiple.model <- lm(dancea ~ 1 + vala + energya + tempoa, data = spotify1) 
+summary(multiple.model)
+
+Call:
+lm(formula = dancea ~ 1 + vala + energya + tempoa, data = spotify1)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.20958 -0.06292 -0.03026  0.12120  0.23860 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 0.167882   0.155724   1.078    0.293  
+vala        0.185149   0.134808   1.373    0.184  
+energya     0.486165   0.176711   2.751    0.012 *
+tempoa      0.001728   0.001334   1.296    0.209  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1296 on 21 degrees of freedom
+  (4 observations deleted due to missingness)
+Multiple R-squared:  0.4235,    Adjusted R-squared:  0.3412 
+F-statistic: 5.143 on 3 and 21 DF,  p-value: 0.008009
+Hide
+superanova(multiple.model)
+Hide
+multiple.model3 <- lm(energya ~ 1 + vala + dancea + tempoa, data = spotify1) 
+summary(multiple.model3)
+Hide
+superanova(multiple.model3)
+Hide
+multiple.model4 <- lm(vala ~ 1 + energya + dancea + tempoa, data = spotify1) 
+summary(multiple.model4)
+Hide
+superanova(multiple.model4)
+Hide
+multiple.model5 <- lm(tempoa ~ 1 + energya + dancea + vala, data = spotify1) 
+summary(multiple.model5)
+Hide
+superanova(multiple.model5)
+Hide
+multiple.model1 <- lm(danceb ~ 1 + valb + energyb + tempob, data = spotify1) 
+summary(multiple.model1)
+Hide
+superanova(multiple.model1)
+Hide
+multiple.model6 <- lm(energyb ~ 1 + valb + danceb + tempob, data = spotify1) 
+summary(multiple.model6)
+Hide
+superanova(multiple.model6)
+Hide
+multiple.model7 <- lm(valb ~ 1 + energyb + danceb + tempob, data = spotify1) 
+summary(multiple.model7)
+Hide
+superanova(multiple.model7)
+Hide
+multiple.model8 <- lm(tempob ~ 1 + energyb + danceb + valb, data = spotify1) 
+summary(multiple.model8)
+Hide
+superanova(multiple.model8)
+Hide
+multiple.model9 <- lm(energyc ~ 1 + valc + dancec + tempoc, data = spotify1) 
+summary(multiple.model9)
+Hide
+superanova(multiple.model9)
+Hide
+multiple.model2 <- lm(dancec ~ 1 + valc + energyc + tempoc, data = spotify1) 
+summary(multiple.model2)
+Hide
+superanova(multiple.model2)
+Hide
+multiple.model10 <- lm(valc ~ 1 + energyc + dancec + tempoc, data = spotify1) 
+summary(multiple.model10)
+Hide
+superanova(multiple.model10)
+Hide
+multiple.model11 <- lm(tempoc ~ 1 + energyc + dancec + valc, data = spotify1) 
+summary(multiple.model11)
+Hide
+superanova(multiple.model11)
+Hide
+multiple.model12 <- lm(energyd ~ 1 + vald + danced + tempod, data = spotify1) 
+summary(multiple.model12)
+Hide
+superanova(multiple.model12)
+Hide
+multiple.model13 <- lm(danced ~ 1 + vald + energyd + tempod, data = spotify1) 
+summary(multiple.model3)
+Hide
+superanova(multiple.model13)
+Hide
+multiple.model14 <- lm(vald ~ 1 + energyd + danced + tempod, data = spotify1) 
+summary(multiple.model14)
+Hide
+superanova(multiple.model14)
+Hide
+multiple.model15 <- lm(tempod ~ 1 + energyd + danced + vald, data = spotify1) 
+summary(multiple.model15)
+Hide
+superanova(multiple.model15)
+Hide
+dance <- #into new dataframe
+  spotify1 %>% # from WVS dataframe
+  select(dancea, danceb, dancec, danced)
+head(dance)
+Hide
+val <- #into new dataframe
+  spotify1 %>% # from WVS dataframe
+  select(vala, valb, valc, vald)
+head(val)
+Hide
+tempo <- #into new dataframe
+  spotify1 %>% # from WVS dataframe
+  select(tempoa, tempob, tempoc, tempod)
+head(tempo)
+Hide
+energy <- #into new dataframe
+  spotify1 %>% # from WVS dataframe
+  select(energya, energyb, energyc, energyd)
+head(energy)
+Hide
+rcorr(as.matrix(dance, type="pearson"))
+Hide
+rcorr(as.matrix(energy, type="pearson"))
+Hide
+rcorr(as.matrix(tempo, type="pearson"))
+Hide
+rcorr(as.matrix(val, type="pearson"))
+Hide
+loud <- #into new dataframe
+  spotify1 %>% # from WVS dataframe
+  select(louda, loudb, loudc, loudd)
+head(loud)
+Hide
+speech <- #into new dataframe
+  spotify1 %>% # from WVS dataframe
+  select(speecha, speechb, speechc, speechd)
+head(speech)
+Hide
+rcorr(as.matrix(speech, type="pearson"))
+Hide
+rcorr(as.matrix(loud, type="pearson"))
 # References 
 
 https://www.pnas.org/content/116/9/3793
