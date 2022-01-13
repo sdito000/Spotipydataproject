@@ -7,7 +7,7 @@ Music is a tool that has unifying characteristics. Even though we all have diffe
 
 Introducing our team members:
 
-![iPhone 12, 12 Pro – 1](https://user-images.githubusercontent.com/91847452/149189842-909628f3-08ef-40c3-bc45-de3b0ff0ca8b.png)
+![group members](https://user-images.githubusercontent.com/91847452/149316564-aff0f924-8e3b-4dd9-923b-77fa90141bf3.png)
 
 Music is something that has an important part in all of our lives. When we listen to our favorite song, we feel good throughout our whole body, since dopamine is released. In fact, listening to music is important to our health. That’s why we, Alara Alanbay, Stephanie Dito, Rafi Ahmed, and Michelle Liu, wanted to conduct a data science investigation about popular music. What makes a song popular? 
 
