@@ -32,7 +32,7 @@ Summary of our results
 Summary of Conclusion 
 
 
-In further detail, Here is what we found: 
+### In further detail, Here is what we found: 
 
 # _**Purpose**_
 
@@ -74,6 +74,7 @@ Understanding what makes a song popular will have great influence on business mo
 <img width="468" alt="Justification picture 1" src="https://user-images.githubusercontent.com/91945641/149319286-875a37bf-12ee-416d-9d86-f07c473dc43d.png">
 
 <img width="468" alt="justification picture 2" src="https://user-images.githubusercontent.com/91945641/149319560-f3d6555d-6f07-4065-b396-5b9e570afe24.png">
+
 
 Given the commercial significance of a success formula, there are media narratives on song popularity. These are some articles talking about which combination of audio features make a song popular. Notice how they say all songs sound the same - well does Easy on Me and Taki Taki sound the same to anyone? Conversely, while they have very different compositions of audio features, they are only two examples of megahit songs, so are they outliers? 
 
