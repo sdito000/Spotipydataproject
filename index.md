@@ -215,7 +215,6 @@ Both energy and tempo have a meaningful relationship with valence in 2019 and th
 
 The simple linear regression analysis on chart positioning only found a statistically significant relationship between danceability and chart position. Hence, it is important to look from the lens of danceability and see if it has meaningful relationships with other audio features. Here we can see that energy and danceability have a positive meaningful relationship in 2018 and 2021. Valence has a positive meaningful relationship with danceability in 2019 and 2020 while tempo has a positive meaningful relationship with danceability in 2019, 2020 and 2021. 
 
-<img width="1055" alt="Screen Shot 2022-01-13 at 12 42 54 PM" src="https://user-images.githubusercontent.com/91945641/149332317-6ac01586-4a65-4c2c-b967-c4229fbe5019.png">
 
 ![WhatsApp Image 2022-01-06 at 5 55 51 PM](https://user-images.githubusercontent.com/91945641/149195551-a7d582b6-d1d4-4e06-8548-6025707dcd91.jpeg)
 
