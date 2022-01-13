@@ -47,7 +47,7 @@ Now, we want to familiarise you with the audio features we concentrated on.
 
 The features that we chose have to do with the mood and production properties of the song. We feel that these features (tempo, danceability, valence, energy, speechiness, loudness, and instrumentalness) really contribute to what attracts the average ear to top songs. 
 
-Here is a description of the audio features we have used: 
+Here is a description of the audio features we have used (Spotify Web API reference, 2021): 
 
 
 ![audio features](https://user-images.githubusercontent.com/91847452/149315531-c69e90ee-c404-40e3-b1b3-48f80e005629.png)
@@ -245,6 +245,7 @@ It is important to refer to the limitations we have faced that require further r
 
 
 # Appendix 
+
 
 # References 
 
