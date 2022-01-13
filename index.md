@@ -29,7 +29,7 @@ Summary of our results
 
 ## Conclusion 
 
-Summary of Conclusion 
+After asking ourselves "What makes a song popular?", we came to the conclusion that music is abstract. It is extraordinarily hard, if not impossible, to predict whether a song will reach the top charts. There is also limitations to our research: most prominently that we had a small song sample. We could not tell you what you wanted to hear-- that we know how your song will climb global music charts. 
 
 
 ### In further detail, Here is what we found: 
