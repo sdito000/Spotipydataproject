@@ -154,13 +154,7 @@ The top song in November of 2019 is "Dance Monkey" by Tones and I and the top so
 # _**Methodology**_
 After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum & minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for 2018-21. 
 
-<img width="468" alt="Picture1" src="https://user-images.githubusercontent.com/91945641/149323683-11d6d211-e85a-4aaa-9b4a-3d1ac8ccca04.png">
-<img width="468" alt="average 2" src="https://user-images.githubusercontent.com/91945641/149323483-5da4e986-4918-4dbb-8516-7dd99ceda54a.png">
-<img width="468" alt="average3" src="https://user-images.githubusercontent.com/91945641/149323492-06231feb-de42-43c1-a0ed-735712a3cd0d.png">
-<img width="468" alt="average 4" src="https://user-images.githubusercontent.com/91945641/149323508-464965b5-a371-4ce9-a08c-be9540ad98fb.png">
-<img width="468" alt="average 5" src="https://user-images.githubusercontent.com/91945641/149323522-2e1f3730-aca4-456a-8a28-9dd858dda592.png">
-<img width="468" alt="average6" src="https://user-images.githubusercontent.com/91945641/149323532-7a3c7901-35cc-4467-9fed-661992f23747.png">
-
+<img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png">
 
 
 By looking at the values, there is a story emerging. The mean, median and standard deviation of tempo, energy and valence increases steadily between 2018 and 2021. This means that your favourite top songs, on average, are more likely to exhibit musical positivity, upbeat rhythms and energy over the years. However, the range of values of these audio features of top songs also expands over the years.
