@@ -49,7 +49,7 @@ Now, we want to familiarise you with the audio features we concentrated on.
 
 The features that we chose have to do with the mood and production properties of the song. We feel that these features (tempo, danceability, valence, energy, speechiness, loudness, and instrumentalness) really contribute to what attracts the average ear to top songs. 
 
-Here is a description of the audio features we have used: 
+Here is a description of the audio features we have used (Spotify Web API reference, 2021): 
 
 
 ![audio features](https://user-images.githubusercontent.com/91847452/149315531-c69e90ee-c404-40e3-b1b3-48f80e005629.png)
@@ -58,9 +58,9 @@ Here is a description of the audio features we have used:
 
 **Energy**: Energy represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy.
 
-**Loudness**: The overall loudness throughout the entire track.
+**Loudness**: The overall loudness of a track.
 
-**Speechiness**: Speechiness detects the presence of spoken words in a track. 
+**Speechiness**: Speechiness is the presence of spoken words in a track. 
 
 **Tempo**: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration
 
@@ -261,6 +261,11 @@ It is important to refer to the limitations we have faced that require further r
 https://www.pnas.org/content/116/9/3793
 
 https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science
+
+https://www.semanticscholar.org/paper/Predicting-Song-Popularity-Pham/3a4d3e9dcb8ea421afb92903e1e4e5dd31861b7b
+
+https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features
+
 
 
 # Thanks for listening!
