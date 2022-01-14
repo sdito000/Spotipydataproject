@@ -14,7 +14,7 @@ We used the top 25 songs in the first week of November 2018, 2019, 2020, 2021. O
 
 We compiled the data we found on 100 songs in an Excel spreadsheet, and then found the mean, median, maximum, minimum, and standard deviation. By obtaining descriptive statistics, we used simple linear regression (SLR) and multiple linear regression (MLR) to determine whether there is a relationship between any audio features.
 
-After running Simple Linear Regressions, we found that over 4 years of data, a high danceability value is associated with a higher position on the charts. According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meangiful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
+After running Simple Linear Regressions, we found that over 4 years of data, a high danceability value is associated with a higher position on the charts. According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meaningful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
 
 To answer our question "What makes a song popular?", we came to the conclusion that despite some common themes in viral spotify hit songs, music is an abstract concept. It is difficult to fully predict whether a song will reach the top charts. There is also limitations to our research and the most prominent one is that we had a small song sample. We could tell you what audio features predicted rise of top 25 songs during year-end 2018-21. However, we cannot confirm that we know how your song will climb the global music charts. We present such a nuanced outlook in our data project below. 
 
@@ -27,7 +27,7 @@ We want to connect _Hit Song Science_ to Data analysis of the Spotify's API. Is 
 
 
 ## _**Preface**_
-Our project’s aim is to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of every November from the years 2018 to 2021. We used SpotifyCharts.com to obtain these songs.
+Our project’s aim is to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of every November from the years 2018 to 2021. We used [SpotifyCharts.com](https://spotifycharts.com/home/) to obtain these songs.
 
 Now, we want to familiarise you with the audio features we concentrated on. 
 
