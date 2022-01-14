@@ -134,7 +134,7 @@ The only answer to our initial question that can be drawn from this comparison i
 
 <p align="center"><img width="779" alt="Screen Shot 2022-01-14 at 4 19 07 PM" src="https://user-images.githubusercontent.com/91945641/149548971-3420de7e-143f-4200-836b-9bc22bf7c39b.png"></p>
 
-The top song in our 2019 sample is "Dance Monkey" by Tones and I and the top song in our 2020 sample is "positions" by Ariana Grande. 
+The top song in our 2019 sample is "Dance Monkey" by Tones and I and the top song in our 2020 sample is "positions" by Ariana Grande. These two radar charts look quite different as well.
 
 
 ## _**Methodology**_
