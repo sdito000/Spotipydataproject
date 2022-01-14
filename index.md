@@ -134,7 +134,7 @@ The only answer to our initial question that can be drawn from this comparison i
 
 <p align="center"><img width="779" alt="Screen Shot 2022-01-14 at 4 19 07 PM" src="https://user-images.githubusercontent.com/91945641/149548971-3420de7e-143f-4200-836b-9bc22bf7c39b.png"></p>
 
-The top song in our 2019 sample is "Dance Monkey" by Tones and I and the top song in our 2020 sample is "positions" by Ariana Grande. These two radar charts look quite different as well.
+The top song in our 2019 sample is "Dance Monkey" by Tones and I and the top song in our 2020 sample is "positions" by Ariana Grande. 
 
 
 ## _**Methodology**_
@@ -249,9 +249,9 @@ It is important to refer to the limitations we have faced that require further r
 
 ## References 
 
-[Dopamine modulates the reward experiences elicited by music](https://www.pnas.org/content/116/9/3793)
+[Ferreri et al. (2019)](https://www.pnas.org/content/116/9/3793)
 
-[Hit Song Science Is Not Yet a Science.](https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science)
+[Pachet & Roy (2018)](https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science)
 
 [Pham (2015)](https://www.semanticscholar.org/paper/Predicting-Song-Popularity-Pham/3a4d3e9dcb8ea421afb92903e1e4e5dd31861b7b)
 
