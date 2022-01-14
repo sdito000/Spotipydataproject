@@ -163,7 +163,7 @@ In order to study the relationships between audio features, we used multiple reg
 
 <p align="center"><img width="450" alt="WhatsApp Image 2022-01-13 at 9 32 57 AM" src="https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg"></p>
 
-Add a description
+The chart is an overlap of radar charts depciting mean values of four audio features - energy, speechiness, danceability, valence -  over four years, 2018 t0 2021. As you can see, there is some overlap between the audio features since the radar charts have similar shapes. This entails that on average, the top songs have similar levels of energy, speechiness, danceability and valence to an extent. 
 
 
 ## _**Results**_
