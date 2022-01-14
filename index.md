@@ -243,6 +243,8 @@ It is important to refer to the limitations we have faced that require further r
 
 [Spotipy Project Stata Code.pdf](https://github.com/sdito000/Spotipydataproject/files/7870044/Spotipy.Project.Stata.Code.pdf)
 
+[R Analysis.pdf](https://github.com/sdito000/Spotipydataproject/files/7870171/R.Analysis.pdf)
+
 
 ## References 
 
