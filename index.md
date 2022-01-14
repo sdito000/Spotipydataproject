@@ -174,6 +174,7 @@ As illustrated above, the top 2 songs of two different years have drastically di
 
 ### Simple Linear Regression (SLR) 
 
+
 With the Simple Linear Regression approach, we estimate the following equation:
 
 
@@ -193,6 +194,7 @@ On one hand, we obtained two years with positive coefficients. On the other hand
 
 We observed that the relationship between positions and audio features fluctuate within each year between positive and negative, large and small coefficients. We continued to conduct SLR with other audio features against positions, such as valence and energy, but found danceability to have the most statistically significant results. Consistent with our findings, music is abstract; what makes a song popular has multiple confounding factors.
 
+
 ### Multiple Linear Regression
 
 <p align="center"><img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png"></p>
@@ -210,6 +212,7 @@ The simple linear regression analysis on chart positioning only found a statisti
 
 <p align="center"><img width="1102" alt="Screen Shot 2022-01-14 at 4 41 28 PM" src="https://user-images.githubusercontent.com/91945641/149552223-40cc2e5a-4959-4a6a-9aa0-96b392c03b5c.png"></p>
 <p align="center"><em> Table: Scattter plots </em></p>
+
 
 The above are two scatter plots displayed of two meaningful relationships in two different years. The two plots are depicted to show the common themes, as bullet-pointed below, that are shared by scatter plots depicting all the meaningful relationships that were discovered:
 
