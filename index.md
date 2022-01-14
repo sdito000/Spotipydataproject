@@ -239,7 +239,8 @@ It is important to refer to the limitations we have faced that require further r
 
 
 ## Appendix 
-**R code will be attached with pdf file containing URL Link of this github page. 
+
+[Spotipy Project Stata Code.pdf](https://github.com/sdito000/Spotipydataproject/files/7870044/Spotipy.Project.Stata.Code.pdf)
 
 
 ## References 
