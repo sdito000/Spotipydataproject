@@ -141,11 +141,11 @@ After compiling our data into Excel sheets, we ran descriptive statistics utilis
 
 
 <img width="1187" alt="Screen Shot 2022-01-14 at 4 39 13 PM" src="https://user-images.githubusercontent.com/91945641/149551922-2332e0e1-4419-4800-bb34-6de6d580825b.png">
-Table: Descriptive statistics of audio features for 2018-20 
+<p align="center"><em> Table: Descriptive statistics of audio features for 2018-2020 </em></p>
 
 <p align="center"><img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png"></p>
 
-Table: Boxplots visualising descriptive statistics
+<p align="center"><em> Table: Boxplots visualising descriptive statistics </p></em>
 
 By looking at the values, there is a story emerging. The mean, median and standard deviation of tempo, energy and valence increases steadily between 2018 and 2021. This means that your favourite top songs, on average, are more likely to exhibit musical positivity, upbeat rhythms and energy over the years. However, the range of values of these audio features of top songs also expands over the years.
 
@@ -162,7 +162,7 @@ In order to study the relationships between audio features, we used multiple reg
 
 <p align="center"><img width="450" alt="WhatsApp Image 2022-01-13 at 9 32 57 AM" src="https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg"></p>
 
-Table: Overlapped radar charts of mean audio features
+<p align="center"><em> Table: Overlapped radar charts of mean audio features </em></p>
 
 The chart is an overlap of radar charts depciting mean values of four audio features - energy, speechiness, danceability, valence -  over four years, 2018 t0 2021. As you can see, there is some overlap between the audio features since the radar charts have similar shapes. This entails that on average, the top songs have similar levels of energy, speechiness, danceability and valence to an extent. 
 
@@ -197,7 +197,7 @@ We observed that the relationship between positions and audio features fluctuate
 
 <p align="center"><img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png"></p>
 
-Table: Meaningful Multiple Regression Results
+<p align="center"><em> Table: Meaningful Multiple Regression Results </em></p>
 
 Here the table shows the results of meaningful multiple regression results. By meaningful, we mean results which generally have only around 10% chance of being a random error. While statisticians tend to hold only 5% error and we have upheld that principal for SLR results, our sample size is quite limited and the time period for our data collection is very specific. Therefore we recognise that extending error rate can allow us to look at more relationships that may have been statistically significant i,.e. P value les than 0.05, if sample size and time period for the data collection was wider. 
 
@@ -209,7 +209,7 @@ The simple linear regression analysis on chart positioning only found a statisti
 
 
 <p align="center"><img width="1102" alt="Screen Shot 2022-01-14 at 4 41 28 PM" src="https://user-images.githubusercontent.com/91945641/149552223-40cc2e5a-4959-4a6a-9aa0-96b392c03b5c.png"></p>
-Table: Scattter plots
+<p align="center"><em> Table: Scattter plots </em></p>
 
 The above are two scatter plots displayed of two meaningful relationships in two different years. The two plots are depicted to show the common themes, as bullet-pointed below, that are shared by scatter plots depicting all the meaningful relationships that were discovered. 
 
