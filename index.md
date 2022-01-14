@@ -161,7 +161,7 @@ In order to study the relationships between audio features, we used multiple reg
 
 ### Visualising Each Year’s Mean Value 
 
-<p align="center"><img alt="WhatsApp Image 2022-01-13 at 9 32 57 AM" src="https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg"></p>
+<p align="center"><img width="450" alt="WhatsApp Image 2022-01-13 at 9 32 57 AM" src="https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg"></p>
 
 Add a description
 
@@ -205,10 +205,10 @@ Moreover, both energy and tempo have a meaningful relationship with valence in 2
 The simple linear regression analysis on chart positioning only found a statistically significant relationship between danceability and chart position. Hence, it is important to look from the lens of danceability and see if it has meaningful relationships with other audio features. Here we can see that energy and danceability have a positive meaningful relationship in 2018 and 2021. Valence has a positive meaningful relationship with danceability in 2019 and 2020 while tempo has a positive meaningful relationship with danceability in 2019, 2020 and 2021. 
 
 
-<p align="center"><img alt="WhatsApp Image 2022-01-06 at 5 55 51 PM" src="https://user-images.githubusercontent.com/91945641/149195551-a7d582b6-d1d4-4e06-8548-6025707dcd91.jpeg"></p>
+<p align="center"><img width="600" alt="WhatsApp Image 2022-01-06 at 5 55 51 PM" src="https://user-images.githubusercontent.com/91945641/149195551-a7d582b6-d1d4-4e06-8548-6025707dcd91.jpeg"></p>
 
 
-<p align="center"><img alt="WhatsApp Image 2022-01-06 at 3 01 30 PM" src="https://user-images.githubusercontent.com/91945641/149195566-93e2a012-008c-4561-8c84-1cf650756a47.jpeg"></p>
+<p align="center"><img width="600" alt="WhatsApp Image 2022-01-06 at 3 01 30 PM" src="https://user-images.githubusercontent.com/91945641/149195566-93e2a012-008c-4561-8c84-1cf650756a47.jpeg"></p>
 
 
 The above are two scatter plots displayed of two meaningful relationships in two different years. The two plots are depicted to show the common themes, as bullet-pointed below, that are shared by scatter plots depicting all the meaningful relationships that were discovered. 
