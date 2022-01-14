@@ -250,13 +250,13 @@ Moving forward, further research is needed to eliminate the limitations mentione
 
 ## References 
 
-[Music Releases Dopamine|PNAS](https://www.pnas.org/content/116/9/3793)
+[Dopamine modulates the reward experiences elicited by music](https://www.pnas.org/content/116/9/3793)
 
-https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science
+[Hit Song Science Is Not Yet a Science.](https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science)
 
-https://www.semanticscholar.org/paper/Predicting-Song-Popularity-Pham/3a4d3e9dcb8ea421afb92903e1e4e5dd31861b7b
+[Predicting Song Popularity](https://www.semanticscholar.org/paper/Predicting-Song-Popularity-Pham/3a4d3e9dcb8ea421afb92903e1e4e5dd31861b7b)
 
-https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features
+[Spotify Web API: Get Audio Features](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)
 
 
 ## Thanks for listening!
