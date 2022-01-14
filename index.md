@@ -65,9 +65,7 @@ Furthermore, given the commercial significance of a success formula, there are m
 <p align="center"> <img width="468" alt="justification picture 2" src="https://user-images.githubusercontent.com/91945641/149319560-f3d6555d-6f07-4065-b396-5b9e570afe24.png"></p>
 
 
-Notice how they say all songs sound the same - well does Easy on Me and Taki Taki sound the same to anyone? Conversely, while they have very different compositions of audio features, they are only two examples of megahit songs, so are they outliers? 
-
-The second excerpt has a highlighted portion - songs that made the charts were more danceable, party going and tend to be happier. In terms of their translation to audio features our interpretations are as follows: "danceable" is danceability, "party going" is tempo and "happier" is higher valence.
+The article has a highlighted portion - songs that made the charts were more danceable, party going and tend to be happier. In terms of their translation to audio features our interpretations are as follows: "danceable" is danceability, "party going" is tempo and "happier" is higher valence.
 
 The sub-heading assumes two things: firstly, the audio features are impacting positioning and secondly, there is a sort of relationship between the audio features - in the sense they are rising all at the same time. Hence, it is important for us to investigate to what extent these assumptions hold true. Our results contribute to reconstructing media narratives and commercial music production value for music executives and artists alike.
 
