@@ -259,3 +259,5 @@ It is important to refer to the limitations we have faced that require further r
 
 
 ## Thanks for listening!
+
+Stephanie Dito, Alara Alanbay, Rafi Ahmed, Michelle Liu
