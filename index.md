@@ -72,7 +72,7 @@ The second excerpt has a highlighted portion - songs that made the charts were m
 The sub-heading assumes two things: firstly, the audio features are impacting positioning and secondly, there is a sort of relationship between the audio features - in the sense they are rising all at the same time. Hence, it is important for us to investigate to what extent these assumptions hold true. Our results contribute to reconstructing media narratives and commercial music production value for music executives and artists alike.
 
 
-# _**Aim**_
+## _**Aim**_
 
 Our project’s aim is to gain more insight on the factors that make a song popular. We want to see if there exists a formula that artists can comply with that will make their song reach the top charts. Another aspect of our aim is to see if popular music has any significant relationships among audio features. 
 
@@ -145,6 +145,10 @@ The top song in the first week of November, 2019 is "Dance Monkey" by Tones and 
 ## _**Methodology**_
 
 After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum and minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for the time period of 2018-2021. 
+
+<img width="436" alt="des stats 1" src="https://user-images.githubusercontent.com/91945641/149530224-588b91ac-8363-4709-b705-bca7188efbe9.png">
+
+<img width="432" alt="des stat 2" src="https://user-images.githubusercontent.com/91945641/149530236-c2808a14-d782-4d61-a3a3-0a622a240e84.png">
 
 <p align="center"><img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png"></p>
 
@@ -226,14 +230,7 @@ We also analysed whether there are any meangingful relationships between audio f
 
 However, these relationships are not everlasting neither can they be generalised to all music given our very limited sample size. Firstly, as scatter plots have depicted, there is a lot of spread and outliers. Secondly, music is a subjective concept. It makes sense that there is no set pattern, no defining audio features, and no similar songs. All songs are different and all tastes are different. People may listen to a song because they like the lyrics. Or, someone may like the artist or the producer. Perhaps, someone likes the genre placement. After all, most people have a short attention span with music – they get bored of the same song repeatedly. These reasons mean that Spotify’s algorithm for determining audio features cannot tell us what we wanted to hear. There are other factors that make music popular, which cannot be studied through our data analysis. 
 
-Other factors include:
-
-- Lyrics 
-- Previous work and popularity 
-- Genre placement 
-- Whether it is innovative or original
-- Music is abstract 
-
+To list them, other factors influencing a song's popularity is lyrics, previous work/popularity, genre placement, the level of innovation/originality, and the abstract aspect of making music. 
 
 It is important to refer to the limitations we have faced that require further research. First of all, we analysed the top 25 most globally streamed songs for our research. If we were to evaluate a specific country’s top 25 most streamed songs, we might have gotten different results. Secondly, we analysed a small sample of songs from a short period of time. We only looked over the top 25 songs from 4 consecutive years: 2018, 2019, 2020 and 2021. Next, with the wide presence of social media, song popularity can be altered according to the social influence we receive. According to Pachet, “[kn]owing that a song is a hit…influences our liking” (2012). One social media platform that comes to mind is TikTok. We noticed that the majority of songs we analyzed are (or were at one point) widely used songs on TikTok. Lastly, a change of website where we acquired our data might cause different results. There are other websites such as Billboard that also provide the same type of data. With these limitations in place, our result is that it is not possible to predict song popularity. 
 	Moving forward, further research is needed to eliminate the limitations mentioned above. Once predicting song popularity is accomplished, we can investigate whether automatic generation of hit songs is possible through the same audio features we analysed. 
