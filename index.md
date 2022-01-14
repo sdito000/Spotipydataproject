@@ -107,7 +107,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 
 <p align="center"><img alt="adele album" src="https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg"></p>
 
-<p align="center"> _Click to hear a sample of "Easy on Me"._ </p>
+<p align="center"> Click to hear a sample of "Easy on Me". </p>
 <p align="center"> https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc </p>
 
 
@@ -169,7 +169,7 @@ In order to study the relationships between audio features, we used multiple reg
 
 <p align="center"><img width="450" alt="WhatsApp Image 2022-01-13 at 9 32 57 AM" src="https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg"></p>
 
-The chart is an overlap of radar charts depciting mean values of four audio features - energy, speechiness, danceability, valence -  over four years, 2018 to 2021. As you can see, there is some overlap between the audio features since the radar charts have similar shapes. This entails that on average, the top songs have similar levels of energy, speechiness, danceability and valence to an extent. 
+The chart is an overlap of radar charts depciting mean values of four audio features - energy, speechiness, danceability, valence -  over four years, 2018 t0 2021. As you can see, there is some overlap between the audio features since the radar charts have similar shapes. This entails that on average, the top songs have similar levels of energy, speechiness, danceability and valence to an extent. 
 
 
 ## _**Results**_
@@ -235,7 +235,8 @@ However, these relationships are not everlasting neither can they be generalised
 To list them, other factors influencing a song's popularity is lyrics, previous work/popularity, genre placement, the level of innovation/originality, and the abstract aspect of making music. 
 
 It is important to refer to the limitations we have faced that require further research. First of all, we analysed the top 25 most globally streamed songs for our research. If we were to evaluate a specific country’s top 25 most streamed songs, we might have gotten different results. Secondly, we analysed a small sample of songs from a short period of time. We only looked over the top 25 songs from 4 consecutive years: 2018, 2019, 2020 and 2021. Next, with the wide presence of social media, song popularity can be altered according to the social influence we receive. According to Pachet, “[kn]owing that a song is a hit…influences our liking” (2012). One social media platform that comes to mind is TikTok. We noticed that the majority of songs we analyzed are (or were at one point) widely used songs on TikTok. Lastly, a change of website where we acquired our data might cause different results. There are other websites such as Billboard that also provide the same type of data. With these limitations in place, our result is that it is not possible to predict song popularity. 
-	Moving forward, further research is needed to eliminate the limitations mentioned above. Once predicting song popularity is accomplished, we can investigate whether automatic generation of hit songs is possible through the same audio features we analysed. 
+
+Moving forward, further research is needed to eliminate the limitations mentioned above. Once predicting song popularity is accomplished, we can investigate whether automatic generation of hit songs is possible through the same audio features we analysed. 
 
 
 ## Appendix 
