@@ -250,7 +250,7 @@ Moving forward, further research is needed to eliminate the limitations mentione
 
 ## References 
 
-https://www.pnas.org/content/116/9/3793
+[Music Releases Dopamine|PNAS](https://www.pnas.org/content/116/9/3793)
 
 https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science
 
