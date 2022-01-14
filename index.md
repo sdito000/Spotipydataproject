@@ -54,8 +54,10 @@ Here is a description of the audio features we have used (Spotify Web API refere
 
 # _**Justification**_
 
-Understanding what makes a song popular will have great influence on business models that depend on popular music, such as radio stations, online audio streaming services (such as Spotify), and record labels. Hit Song Science will have a significant impact on the music industry. If the popularity of a song can be predicted before its release, it would create a commercial opportunity. Songwriters and composers will be able to focus on key elements that predict the song's popularity, and the budget will be better allocated. According to computer science students at Stanford University, HSS is a problem that the music industry is currently working on to solve (). Their research shows which audio features are the most influential elements that make a song popular. Inspired by their research, we wanted to establish a foundation for understanding whether predicting song popularity would be possible in the future. 
+Understanding what makes a song popular will have great influence on business models that depend on popular music, such as radio stations, online audio streaming services (such as Spotify), and record labels. Hit Song Science will have a significant impact on the music industry. If the popularity of a song can be predicted before its release, it would create a commercial opportunity. Songwriters and composers will be able to focus on key elements that predict the song's popularity, and the budget will be better allocated. According to computer science students at Stanford University, HSS is a problem that the music industry is currently working on to solve (Pham et al., 2015). Their research shows which audio features are the most influential elements that make a song popular. Inspired by their research, we wanted to establish a foundation for understanding whether predicting song popularity would be possible in the future. 
 
+
+Furthermore, given the commercial significance of a success formula, there are media narratives on song popularity. These are some articles talking about which combination of audio features make a song popular.
 
 
 <img width="468" alt="Justification picture 1" src="https://user-images.githubusercontent.com/91945641/149319286-875a37bf-12ee-416d-9d86-f07c473dc43d.png">
@@ -63,11 +65,11 @@ Understanding what makes a song popular will have great influence on business mo
 <img width="468" alt="justification picture 2" src="https://user-images.githubusercontent.com/91945641/149319560-f3d6555d-6f07-4065-b396-5b9e570afe24.png">
 
 
-Given the commercial significance of a success formula, there are media narratives on song popularity. These are some articles talking about which combination of audio features make a song popular. Notice how they say all songs sound the same - well does Easy on Me and Taki Taki sound the same to anyone? Conversely, while they have very different compositions of audio features, they are only two examples of megahit songs, so are they outliers? 
+Notice how they say all songs sound the same - well does Easy on Me and Taki Taki sound the same to anyone? Conversely, while they have very different compositions of audio features, they are only two examples of megahit songs, so are they outliers? 
 
-The second excerpt has a highlighted portion - songs that made the charts were more danceable, party going and tend to be happier. In terms of their translation to audio features, danceable is self-explanatory, party going is probably tempo and happier is higher valence
+The second excerpt has a highlighted portion - songs that made the charts were more danceable, party going and tend to be happier. In terms of their translation to audio features our interpretations are as follows: "danceable" is danceability, "party going" is tempo and "happier" is higher valence.
 
- This sentence assumes two things: firstly, the audio features are impacting positioning and secondly, there is a sort of relationship between the audio features - in the sense they are rising all at the same time. Hence, it is important for us to investigate to what extent these assumptions hold true: Our results contribute to reconstructing media narratives and commercial music production value for music executives and artists alike.
+The sub-heading assumes two things: firstly, the audio features are impacting positioning and secondly, there is a sort of relationship between the audio features - in the sense they are rising all at the same time. Hence, it is important for us to investigate to what extent these assumptions hold true. Our results contribute to reconstructing media narratives and commercial music production value for music executives and artists alike.
 
 
 # _**Aim**_
@@ -86,7 +88,7 @@ We extracted six audio features for our data analysis - tempo, valence, danceabi
 
 ## Examples
 
-We want to show you some top songs, so you can get an idea how the audio features values manifests in a top song. 
+We want to show you some top songs, so you can get an idea how the audio features' values manifests in a top song. 
 
 ## **Taki Taki (with Selena Gomez, Ozuna, and Cardi B)** _By DJ Snake_
 
@@ -118,31 +120,28 @@ _Note: The features listed in the radar charts are a measure between 0 and 1.
 
 ## A Puzzle // Initial Observations
 
-Taki Taki is the number one hit in November of 2018, while Easy on Me is the number one hit in November of 2021. As we can notice with these audio features, the two hit songs are quite different. 
+"Taki Taki" is the number one hit song in the first week of November, 2018; while "Easy on Me" is the number one hit song in the first week of November, 2021. As we can notice with these audio features, the two hit songs are quite different. 
 
 How are they different from a data analyst’s standpoint? “Taki Taki” has a high valence and “Easy on Me” has a lower valence. This shows that any level of valence could climb up the charts. 
 
-Another key difference is the energy levels, as “Taki Taki” clearly has a higher energy standing. 
+Another key difference is the energy levels, as “Taki Taki” clearly has a higher energy standing compared to "Easy on Me"
 
 Also, we see some sort of correlation with energy and danceability, which we want to explore further.
 
-From comparing and contrasting these two #1 songs, we notice an irrelevance of speechiness here. Adele has a very low speechability as opposed to a relatively higher speechability in DJ Snake’s song. But when you listen to the music, it seems like Adele is singing more, while “Taki Taki” seems more instrumental. Our objective for studying speechiness was to see if more or less singing was more desirable to the human ear. But, this analysis shows that speechability measures do not help to explain our objective, as Adele’s top song is characterized by her lyrics. 
+From comparing and contrasting these two #1 songs, we notice an irrelevance of speechiness. Adele has a very low speechability as opposed to a relatively higher speechability in DJ Snake’s song. But when you listen to the music, it seems like Adele is *talking* more, while “Taki Taki” seems more instrumental. Our objective for studying speechiness was to see if more or less singing was more desirable to the human ear. But, this analysis shows that speechability measures do not help to explain our objective, as Adele’s top song is characterized by her lyrics. 
 
-The only answer to our initial question that can be drawn from this comparison is that Both songs have high danceability, so that might contribute to the popularity of a song. 
-
-We will explore that further. 
+The only answer to our initial question that can be drawn from this comparison is that both songs have high danceability, so we came to the conclusion that danceability is an essential factor in predicting song popularity. 
 
 ### More Examples
 
 ![WhatsApp Image 2021-12-04 at 10 28 24 AM (2)](https://user-images.githubusercontent.com/91945641/148684312-e8f53094-9f5c-4e63-95ae-32ae70ca7752.jpeg)
 ![WhatsApp Image 2021-12-04 at 10 28 25 AM (1)](https://user-images.githubusercontent.com/91945641/148689454-a1d97e7a-2ca7-4779-910a-dcf493bc3d61.jpeg)
 
-The top song in November of 2019 is "Dance Monkey" by Tones and I and the top song in November 2020 is "positions" by Ariana Grande. 
-
+The top song in the first week of November, 2019 is "Dance Monkey" by Tones and I and the top song in first week of November, 2020 is "positions" by Ariana Grande. 
 
 
 # _**Methodology**_
-After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum & minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for 2018-21. 
+After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum and minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for 2018-21. 
 
 <img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png">
 
