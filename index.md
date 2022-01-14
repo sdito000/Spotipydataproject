@@ -146,7 +146,7 @@ After compiling our data into Excel sheets, we ran descriptive statistics utilis
 
 <p align="center"><img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png"></p>
 
-<p align="center"><em> Table: Boxplots visualising descriptive statistics </p></em>
+<p align="center"><em> Table: Boxplots visualising descriptive statistics </em></p>
 
 By looking at the values, there is a story emerging. The mean, median and standard deviation of tempo, energy and valence increases steadily between 2018 and 2021. This means that your favourite top songs, on average, are more likely to exhibit musical positivity, upbeat rhythms and energy over the years. However, the range of values of these audio features of top songs also expands over the years.
 
@@ -163,7 +163,7 @@ In order to study the relationships between audio features, we used multiple reg
 
 <p align="center"><img width="450" alt="WhatsApp Image 2022-01-13 at 9 32 57 AM" src="https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg"></p>
 
-<p align="center"><em> Table: Overlapped radar charts of mean audio features </em></p>
+<p align="center"><em>Table: Overlapped radar charts of mean audio features</em></p>
 
 The chart is an overlap of radar charts depciting mean values of four audio features - energy, speechiness, danceability, valence -  over four years, 2018 to 2021. As you can see, there is some overlap between the audio features since the radar charts have similar shapes. This entails that on average, the top songs have similar levels of energy, speechiness, danceability and valence to an extent. 
 
@@ -200,7 +200,7 @@ We observed that the relationship between positions and audio features fluctuate
 
 <p align="center"><img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png"></p>
 
-<p align="center"><em> Table: Meaningful Multiple Regression Results </em></p>
+<p align="center"><em>Table: Meaningful Multiple Regression Results</em></p>
 
 Here the table shows the results of meaningful multiple regression results. By meaningful, we mean results which generally have only around 10% chance of being a random error. While statisticians tend to hold only 5% error and we have upheld that principal for SLR results, our sample size is quite limited and the time period for our data collection is very specific. Therefore we recognise that extending error rate can allow us to look at more relationships that may have been statistically significant i,.e. P value les than 0.05, if sample size and time period for the data collection was wider. 
 
@@ -212,8 +212,7 @@ The simple linear regression analysis on chart positioning only found a statisti
 
 
 <p align="center"><img width="1102" alt="Screen Shot 2022-01-14 at 4 41 28 PM" src="https://user-images.githubusercontent.com/91945641/149552223-40cc2e5a-4959-4a6a-9aa0-96b392c03b5c.png"></p>
-
-<p align="center"><em> Table: Scattter plots </em></p>
+<p align="center"><em>Table: Scattter plots</em></p>
 
 
 The above are two scatter plots displayed of two meaningful relationships in two different years. The two plots are depicted to show the common themes, as bullet-pointed below, that are shared by scatter plots depicting all the meaningful relationships that were discovered:
@@ -227,21 +226,15 @@ The above are two scatter plots displayed of two meaningful relationships in two
 
 Our objective was to explore whether we can predict song popularity through a song's audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed the relationship between a track's position on the charts and their danceability value. Although we found an overall negative relationship, we found mixed results when we divided up the coefficient by year. With two years of negative coefficients and two years of positive coefficients, there is not a clear answer on if there is a stable relationship between the two variables. 
 
-
 We also analysed whether there are any meangingful relationships between audio features. Given that the SLR results found a statistically signifcant relationship between chart positioning and danceability, it is important to note that danceability and tempo had a meaningful relationship between 2019 and 2021 while valence had a meanginful relationship between 2019 and 2020 and energy in 2018 with danceability respectively. Therefore during these years, songs that were most streamed by the average person had high danceability cressponding with high tempo and valence. This formula could guarantee a viral hit song to an extent and may do so in the future.  
-
 
 However, these relationships are not everlasting neither can they be generalised to all music given our very limited sample size. Firstly, as scatter plots have depicted, there is a lot of spread and outliers. Secondly, music is a subjective concept. It makes sense that there is no set pattern, no defining audio features, and no similar songs. All songs are different and all tastes are different. People may listen to a song because they like the lyrics. Or, someone may like the artist or the producer. Perhaps, someone likes the genre placement. After all, most people have a short attention span with music – they get bored of the same song repeatedly. These reasons mean that Spotify’s algorithm for determining audio features cannot tell us what we wanted to hear. There are other factors that make music popular, which cannot be studied through our data analysis. 
 
-
 To list them, other factors influencing a song's popularity is lyrics, previous work/popularity, genre placement, the level of innovation/originality, and the abstract aspect of making music. 
-
 
 <p align="center"><img width="393" alt="pie chart" src="https://user-images.githubusercontent.com/91847452/149546451-7538db67-2034-4ea1-b8be-1fa315ee1a41.PNG"></p>
 
-
 <p align="center"><em>Image Source: Nielsen Music, 2015</em></p>
-
 
 It is important to refer to the limitations we have faced that require further research. First of all, we analysed the top 25 most globally streamed songs for our research. If we were to evaluate a specific country’s top 25 most streamed songs, we might have gotten different results. Secondly, we analysed a small sample of songs from a short period of time. We only looked over the top 25 songs from 4 consecutive years: 2018, 2019, 2020 and 2021. Next, with the wide presence of social media, song popularity can be altered according to the social influence we receive. According to Pachet, “[kn]owing that a song is a hit…influences our liking” (2012). One social media platform that comes to mind is TikTok. We noticed that the majority of songs we analyzed are (or were at one point) widely used songs on TikTok. Lastly, a change of website where we acquired our data might cause different results. There are other websites such as Billboard that also provide the same type of data. With these limitations in place, our result is that it is not possible to predict song popularity. Moving forward, further research is needed to eliminate the limitations mentioned above. 
 
