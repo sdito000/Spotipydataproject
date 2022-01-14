@@ -212,6 +212,7 @@ The simple linear regression analysis on chart positioning only found a statisti
 
 
 <p align="center"><img width="1102" alt="Screen Shot 2022-01-14 at 4 41 28 PM" src="https://user-images.githubusercontent.com/91945641/149552223-40cc2e5a-4959-4a6a-9aa0-96b392c03b5c.png"></p>
+
 <p align="center"><em> Table: Scattter plots </em></p>
 
 
@@ -232,11 +233,15 @@ We also analysed whether there are any meangingful relationships between audio f
 
 However, these relationships are not everlasting neither can they be generalised to all music given our very limited sample size. Firstly, as scatter plots have depicted, there is a lot of spread and outliers. Secondly, music is a subjective concept. It makes sense that there is no set pattern, no defining audio features, and no similar songs. All songs are different and all tastes are different. People may listen to a song because they like the lyrics. Or, someone may like the artist or the producer. Perhaps, someone likes the genre placement. After all, most people have a short attention span with music – they get bored of the same song repeatedly. These reasons mean that Spotify’s algorithm for determining audio features cannot tell us what we wanted to hear. There are other factors that make music popular, which cannot be studied through our data analysis. 
 
+
 To list them, other factors influencing a song's popularity is lyrics, previous work/popularity, genre placement, the level of innovation/originality, and the abstract aspect of making music. 
+
 
 <p align="center"><img width="393" alt="pie chart" src="https://user-images.githubusercontent.com/91847452/149546451-7538db67-2034-4ea1-b8be-1fa315ee1a41.PNG"></p>
 
+
 <p align="center"><em>Image Source: Nielsen Music, 2015</em></p>
+
 
 It is important to refer to the limitations we have faced that require further research. First of all, we analysed the top 25 most globally streamed songs for our research. If we were to evaluate a specific country’s top 25 most streamed songs, we might have gotten different results. Secondly, we analysed a small sample of songs from a short period of time. We only looked over the top 25 songs from 4 consecutive years: 2018, 2019, 2020 and 2021. Next, with the wide presence of social media, song popularity can be altered according to the social influence we receive. According to Pachet, “[kn]owing that a song is a hit…influences our liking” (2012). One social media platform that comes to mind is TikTok. We noticed that the majority of songs we analyzed are (or were at one point) widely used songs on TikTok. Lastly, a change of website where we acquired our data might cause different results. There are other websites such as Billboard that also provide the same type of data. With these limitations in place, our result is that it is not possible to predict song popularity. Moving forward, further research is needed to eliminate the limitations mentioned above. 
 
