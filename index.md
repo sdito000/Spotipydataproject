@@ -253,7 +253,7 @@ It is important to refer to the limitations we have faced that require further r
 
 [Pachet & Roy (2018)](https://www.researchgate.net/publication/220723429_Hit_Song_Science_Is_Not_Yet_a_Science)
 
-[Pham (2015)](https://www.semanticscholar.org/paper/Predicting-Song-Popularity-Pham/3a4d3e9dcb8ea421afb92903e1e4e5dd31861b7b)
+[Pham et al. (2015)](https://www.semanticscholar.org/paper/Predicting-Song-Popularity-Pham/3a4d3e9dcb8ea421afb92903e1e4e5dd31861b7b)
 
 [Spotify Web API: Get Audio Features](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features)
 
