@@ -2,11 +2,11 @@
 # **What Makes a Song Popular?**
 Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, each of us can talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together, by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other, "What makes a song popular?"
 
-Introducing our team members:
+*Introducing our team members:*
 
 ![group members](https://user-images.githubusercontent.com/91847452/149316564-aff0f924-8e3b-4dd9-923b-77fa90141bf3.png)
 
-# Brief Overview // Executive Summary
+## _*Brief Overview // Executive Summary**_
 
 Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in the possibility of predicting song popularity, using the popular streaming platform Spotify, if there exists a set pattern which makes a song climb up the music charts. We aim to study audio features, which we pulled from Spotify Web API, of the top music of the last few years. 
 
@@ -16,18 +16,17 @@ We compiled the data we found on 100 songs in an Excel spreadsheet, and then fou
 
 After running Simple Linear Regressions, we found that over 4 years of data, a high danceability value is associated with a higher position on the charts. According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meangiful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
 
-To answer our question "What makes a song popular?", we came to the conclusion that music is an abstract concept. It is extraordinarily hard, if not impossible, to predict whether a song will reach the top charts. There is also limitations to our research and the most prominent one is that we had a small song sample. We could not tell you what you wanted to hear-- that we know how your song will climb the global music charts. 
+To answer our question "What makes a song popular?", we came to the conclusion that music is an abstract concept. It is extraordinarily hard, if not impossible, to predict whether a song will reach the top charts. There is also limitations to our research and the most prominent one is that we had a small song sample. We could not tell you what you wanted to hear-- that we know how your song will climb the global music charts.  
 
 
-### In further detail, Here is what we found: 
-
-# _**Purpose**_
+## _**Purpose**_
 
 Starting from our general question “What makes a song popular?”, we wondered if predicting song popularity is possible. _Hit Song Science_ (HSS), a term that was first used by Mike McCready, is about exploring whether song popularity can be predicted through audio features put into machine learning. While the validity of HSS continues to be a debate in the music industry, producers and record label companies are hopeful that a song’s popularity can be predicted through its audio features. 
 
 We want to connect _Hit Song Science_ to Data analysis of the Spotify's API. Is there a pattern? Are some audio features directly connected to others? Is there a defining audio feature that is prominent in all top songs? Is there a collective music taste, or are all the top songs different?
 
-# _**Preface**_
+
+## _**Preface**_
 Our project’s aim is to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of every November from the years 2018 to 2021. We used SpotifyCharts.com to obtain these songs.
 
 Now, we want to familiarise you with the audio features we concentrated on. 
@@ -52,7 +51,7 @@ Here is a description of the audio features we have used (Spotify Web API refere
 **Valence**: Valence describes the musical positiveness conveyed by a track. 
 
 
-# _**Justification**_
+## _**Justification**_
 
 Understanding what makes a song popular will have great influence on business models that depend on popular music, such as radio stations, online audio streaming services (such as Spotify), and record labels. Hit Song Science will have a significant impact on the music industry. If the popularity of a song can be predicted before its release, it would create a commercial opportunity. Songwriters and composers will be able to focus on key elements that predict the song's popularity, and the budget will be better allocated. According to computer science students at Stanford University, HSS is a problem that the music industry is currently working on to solve (Pham et al., 2015). Their research shows which audio features are the most influential elements that make a song popular. Inspired by their research, we wanted to establish a foundation for understanding whether predicting song popularity would be possible in the future. 
 
@@ -77,7 +76,7 @@ The sub-heading assumes two things: firstly, the audio features are impacting po
 Our project’s aim is to gain more insight on the factors that make a song popular. We want to see if there exists a formula that artists can comply with that will make their song reach the top charts. Another aspect of our aim is to see if popular music has any significant relationships among audio features. 
 
 
-# _**Data**_
+## _**Data**_
 
 Using SpotifyCharts as a reference, we turned to Spotify's web API, Spotipy. After we created a Spotify web developer account, we created an APP and obtained our Client ID and Client Secret. Moving onto audio feature analysis, we first need to retrieve each individual track’s URI. We used Spotipy’s search feature, requested an Oauth token, and then proceeded with individual track’s data. We inputted the track’s name under “Q”, “track” under “Type”, and Spotipy produced a long list of code. After copying a track’s URI, we utilised the audio feature search tool, and the API gave us a list of all the different audio features already analysed by Spotify. We recorded these values in an excel sheet, and repeated the steps with the other tracks. 
 
@@ -86,11 +85,11 @@ We gathered a total of 100 data points, 25 songs over 4 years worth of charts. W
 We extracted six audio features for our data analysis - tempo, valence, danceability, energy, loudness and speechiness. All the audio features except tempo have values between 0 and 1 with 1 being the highest level and 0 being the lowest. Values for loudness range between -60dB and 0, with 0 being no volume at all. With tempo being a measure of beats per minute, the range of values for tempo could theoretically be nonexistent.
 
 
-## Examples
+### Examples
 
 We want to show you some top songs, so you can get an idea how the audio features' values manifests in a top song. 
 
-## **Taki Taki (with Selena Gomez, Ozuna, and Cardi B)** _By DJ Snake_
+### **Taki Taki (with Selena Gomez, Ozuna, and Cardi B)** _By DJ Snake_
 
 ![Taki taki album](https://user-images.githubusercontent.com/91945641/148683880-55de9461-db89-44cf-9cd4-e81e3ae32ba5.png)
 
@@ -102,7 +101,7 @@ _Click to hear a sample of "Taki Taki"._
 
 
 
-## **Easy on Me** _By Adele_ 
+### **Easy on Me** _By Adele_ 
 
 ![adele album](https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg)
 
@@ -118,7 +117,8 @@ _Click to hear a sample of "Easy on Me".
 
 _Note: The features listed in the radar charts are a measure between 0 and 1. 
 
-## A Puzzle // Initial Observations
+
+### A Puzzle // Initial Observations
 
 "Taki Taki" is the number one hit song in the first week of November, 2018; while "Easy on Me" is the number one hit song in the first week of November, 2021. As we can notice with these audio features, the two hit songs are quite different. 
 
@@ -132,6 +132,7 @@ From comparing and contrasting these two #1 songs, we notice an irrelevance of s
 
 The only answer to our initial question that can be drawn from this comparison is that both songs have high danceability, so we came to the conclusion that danceability is an essential factor in predicting song popularity. 
 
+
 ### More Examples
 
 ![WhatsApp Image 2021-12-04 at 10 28 24 AM (2)](https://user-images.githubusercontent.com/91945641/148684312-e8f53094-9f5c-4e63-95ae-32ae70ca7752.jpeg)
@@ -140,7 +141,7 @@ The only answer to our initial question that can be drawn from this comparison i
 The top song in the first week of November, 2019 is "Dance Monkey" by Tones and I and the top song in first week of November, 2020 is "positions" by Ariana Grande. 
 
 
-# _**Methodology**_
+## _**Methodology**_
 
 After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum and minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for the time period of 2018-2021. 
 
@@ -156,17 +157,20 @@ In order to study the relationship between a track’s position and its audio fe
 
 In order to study the relationships between audio features, we used multiple regression analysis (MLR). MLR allows us to test relationships between multiple independent variables and a single dependent variable. For instance, we can test the direction and strength of relationship between danceability (dependent) with tempo, energy, valence, loudness i.e. all audio features. And we did! We constructed multiple MLR relationships to define each audio feature as y and rest as x. Our purpose was to get a full combination of every single relationship possible. Many times multiple factors affect one variable linearly in real life even if they are correlated with each other: None can make a song with just a single audio feature. Testing relationships allow us to explore common themes and interesting threads of popular music.
 
-## Visualising Each Year’s Mean Value 
+
+### Visualising Each Year’s Mean Value 
 
 ![WhatsApp Image 2022-01-13 at 9 32 57 AM](https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg)
 
 Add a description
 
-# _**Results**_
+
+## _**Results**_
 
 As illustrated above, the top 2 songs of two different years have drastically different makeup of audio features. However, they share a similarity of high danceability. Upon discovering this, we examined whether we can predict a track’s placement on the top 25 by its audio features.
 
-## Simple Linear Regression (SLR) 
+
+### Simple Linear Regression (SLR) 
 
 With the Simple Linear Regression approach, we estimate the following equation:
 
@@ -189,7 +193,8 @@ We observed that the relationship between positions and audio features fluctuate
 
 Danceability has the most significant results, it sounds more intuitive that they will all affect each other equally - why is there a variable relationship, there are differing relationships
 
-## Multiple Linear Regression
+
+### Multiple Linear Regression
 
 <img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png">
 
@@ -215,8 +220,7 @@ The above are two scatter plots displayed of two meaningful relationships in two
 2.	The outliers are marked by their respective album covers. There are a lot of outliers which means even if there is a meaningful relationship there a considerable number of songs that do not fit the mold. Hence, it is difficult to generalize thousands of songs that are released every year or even the hundreds of songs that can become well-known or top hits. 
 
 
-
-# Conclusion 
+## Conclusion 
 
 Our objective was to explore whether we can predict song popularity through a song's audio features. As a group, we kept asking ourselves, “what makes a song popular?” We analysed the relationship between a track's position on the charts and their danceability value. Although we found an overall negative relationship, we found mixed results when we divided up the coefficient by year. With two years of negative coefficients and two years of positive coefficients, there is not a clear answer on if there is a stable relationship between the two variables. 
 
@@ -237,10 +241,11 @@ It is important to refer to the limitations we have faced that require further r
 	Moving forward, further research is needed to eliminate the limitations mentioned above. Once predicting song popularity is accomplished, we can investigate whether automatic generation of hit songs is possible through the same audio features we analysed. 
 
 
-# Appendix 
+## Appendix 
 **R code will be attached with pdf file containing URL Link of this github page. 
 
-# References 
+
+## References 
 
 https://www.pnas.org/content/116/9/3793
 
@@ -251,4 +256,4 @@ https://www.semanticscholar.org/paper/Predicting-Song-Popularity-Pham/3a4d3e9dcb
 https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features
 
 
-# Thanks for listening!
+## Thanks for listening!
