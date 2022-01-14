@@ -91,24 +91,19 @@ We extracted six audio features for our data analysis - tempo, valence, danceabi
 We want to show you some top songs, so you can get an idea how the audio features' values manifests in a top song. 
 
 ### **Taki Taki (with Selena Gomez, Ozuna, and Cardi B)** _By DJ Snake_
+[Audio Sample of "Taki Taki"](https://audio.jukehost.co.uk/rmjuk0Xw6LjAvn3EUBj9wFNPyOOSxIJP)
+
 
 <p align="center"><img alt="Taki taki album" src="https://user-images.githubusercontent.com/91945641/148683880-55de9461-db89-44cf-9cd4-e81e3ae32ba5.png"></p>
-
-<p align="center"> Click to hear a sample of "Taki Taki". </p>
-<p align="center"> https://audio.jukehost.co.uk/rmjuk0Xw6LjAvn3EUBj9wFNPyOOSxIJP </p>
-
-
 
 <p align="center"><img width="405" alt="Screen Shot 2022-01-13 at 11 43 51 AM" src="https://user-images.githubusercontent.com/91945641/149324475-355f2bc5-ceb3-4798-a8a5-093171887717.png"></p>
 
 
 
 ### **Easy on Me** _By Adele_ 
+[Audio sample of "Easy on Me"](https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc).
 
 <p align="center"><img alt="adele album" src="https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg"></p>
-
-[Click to hear a sample of "Easy on Me"](https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc). </p>
-<p align="center"> [https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc](url)] </p>
 
 
 <p align="center"><img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png"></p>
