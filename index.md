@@ -36,7 +36,7 @@ The features that we chose have to do with the mood and production properties of
 Here is a description of the audio features we have used (Spotify Web API reference, 2021): 
 
 
-<p align="center"> <img width="450" alt="audio features" src="https://user-images.githubusercontent.com/91847452/149315531-c69e90ee-c404-40e3-b1b3-48f80e005629.png">
+<p align="center"> <img width="450" alt="audio features" src="https://user-images.githubusercontent.com/91847452/149315531-c69e90ee-c404-40e3-b1b3-48f80e005629.png"></p>
 
 
 **Danceability**: Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity.
@@ -60,9 +60,9 @@ Understanding what makes a song popular will have great influence on business mo
 Furthermore, given the commercial significance of a success formula, there are media narratives on song popularity. These are some articles talking about which combination of audio features make a song popular.
 
 
-<p align="center"> <img width="468" alt="Justification picture 1" src="https://user-images.githubusercontent.com/91945641/149319286-875a37bf-12ee-416d-9d86-f07c473dc43d.png">
+<p align="center"> <img width="468" alt="Justification picture 1" src="https://user-images.githubusercontent.com/91945641/149319286-875a37bf-12ee-416d-9d86-f07c473dc43d.png"></p>
 
-<p align="center"> <img width="468" alt="justification picture 2" src="https://user-images.githubusercontent.com/91945641/149319560-f3d6555d-6f07-4065-b396-5b9e570afe24.png">
+<p align="center"> <img width="468" alt="justification picture 2" src="https://user-images.githubusercontent.com/91945641/149319560-f3d6555d-6f07-4065-b396-5b9e570afe24.png"></p>
 
 
 Notice how they say all songs sound the same - well does Easy on Me and Taki Taki sound the same to anyone? Conversely, while they have very different compositions of audio features, they are only two examples of megahit songs, so are they outliers? 
@@ -92,7 +92,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 
 ### **Taki Taki (with Selena Gomez, Ozuna, and Cardi B)** _By DJ Snake_
 
-![Taki taki album](https://user-images.githubusercontent.com/91945641/148683880-55de9461-db89-44cf-9cd4-e81e3ae32ba5.png)
+<p align="center"><img alt="Taki taki album" src="https://user-images.githubusercontent.com/91945641/148683880-55de9461-db89-44cf-9cd4-e81e3ae32ba5.png"></p>
 
 https://audio.jukehost.co.uk/rmjuk0Xw6LjAvn3EUBj9wFNPyOOSxIJP 
 _Click to hear a sample of "Taki Taki"._
