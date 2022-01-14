@@ -199,7 +199,7 @@ We observed that the relationship between positions and audio features fluctuate
 
 ### Multiple Linear Regression
 
-<p align="center"><img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png"></p>
+<img width="464" alt="Screen Shot 2022-01-14 at 6 34 27 PM" src="https://user-images.githubusercontent.com/91945641/149567365-7320f01e-3b07-4dcd-9cc2-37ca9912f38e.png">
 
 <p align="center"><em>Table: Meaningful Multiple Regression Results</em></p>
 
