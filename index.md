@@ -98,23 +98,23 @@ https://audio.jukehost.co.uk/rmjuk0Xw6LjAvn3EUBj9wFNPyOOSxIJP
 _Click to hear a sample of "Taki Taki"._
 
 
-<img width="405" alt="Screen Shot 2022-01-13 at 11 43 51 AM" src="https://user-images.githubusercontent.com/91945641/149324475-355f2bc5-ceb3-4798-a8a5-093171887717.png">
+<p align="center"><img width="405" alt="Screen Shot 2022-01-13 at 11 43 51 AM" src="https://user-images.githubusercontent.com/91945641/149324475-355f2bc5-ceb3-4798-a8a5-093171887717.png"></p>
 
 
 
 ### **Easy on Me** _By Adele_ 
 
-![adele album](https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg)
+<p align="center"><img alt="adele album" serc="https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg"></p>
 
 https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc 
 _Click to hear a sample of "Easy on Me".
 
-<img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png">
+<p align="center"><img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png"></p>
 
 
-![WhatsApp Image 2021-12-04 at 10 28 24 AM (1)](https://user-images.githubusercontent.com/91945641/148684206-6d948b8d-70f6-48fc-be20-9fdabdc69ef3.jpeg)
+<p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 24 AM (1)" src="https://user-images.githubusercontent.com/91945641/148684206-6d948b8d-70f6-48fc-be20-9fdabdc69ef3.jpeg"></p>
 
-![WhatsApp Image 2021-12-04 at 10 28 25 AM](https://user-images.githubusercontent.com/91945641/148684185-c7be63a3-fd2b-4398-bacf-3617e04b76bd.jpeg)
+<p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 25 AM" src="https://user-images.githubusercontent.com/91945641/148684185-c7be63a3-fd2b-4398-bacf-3617e04b76bd.jpeg"></p>
 
 _Note: The features listed in the radar charts are a measure between 0 and 1. 
 
@@ -136,8 +136,8 @@ The only answer to our initial question that can be drawn from this comparison i
 
 ### More Examples
 
-![WhatsApp Image 2021-12-04 at 10 28 24 AM (2)](https://user-images.githubusercontent.com/91945641/148684312-e8f53094-9f5c-4e63-95ae-32ae70ca7752.jpeg)
-![WhatsApp Image 2021-12-04 at 10 28 25 AM (1)](https://user-images.githubusercontent.com/91945641/148689454-a1d97e7a-2ca7-4779-910a-dcf493bc3d61.jpeg)
+<p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 24 AM (2)" src="https://user-images.githubusercontent.com/91945641/148684312-e8f53094-9f5c-4e63-95ae-32ae70ca7752.jpeg"></p>
+<p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 25 AM (1)" src="https://user-images.githubusercontent.com/91945641/148689454-a1d97e7a-2ca7-4779-910a-dcf493bc3d61.jpeg"></p>
 
 The top song in the first week of November, 2019 is "Dance Monkey" by Tones and I and the top song in first week of November, 2020 is "positions" by Ariana Grande. 
 
@@ -146,7 +146,7 @@ The top song in the first week of November, 2019 is "Dance Monkey" by Tones and 
 
 After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum and minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for the time period of 2018-2021. 
 
-<img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png">
+<p align="center"><img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png"></p>
 
 By looking at the values, there is a story emerging. The mean, median and standard deviation of tempo, energy and valence increases steadily between 2018 and 2021. This means that your favourite top songs, on average, are more likely to exhibit musical positivity, upbeat rhythms and energy over the years. However, the range of values of these audio features of top songs also expands over the years.
 
@@ -161,7 +161,7 @@ In order to study the relationships between audio features, we used multiple reg
 
 ### Visualising Each Year’s Mean Value 
 
-![WhatsApp Image 2022-01-13 at 9 32 57 AM](https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg)
+<p align="center"><img alt="WhatsApp Image 2022-01-13 at 9 32 57 AM" src="https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg"></p>
 
 Add a description
 
@@ -176,11 +176,11 @@ As illustrated above, the top 2 songs of two different years have drastically di
 With the Simple Linear Regression approach, we estimate the following equation:
 
 
-<img width="630" alt="Screenshot 2022-01-12 at 18 04 00" src="https://user-images.githubusercontent.com/92088621/149196699-d34068b1-e9ea-49d1-b9e2-9435a66ebcd9.png">
+<p align="center"><img width="630" alt="Screenshot 2022-01-12 at 18 04 00" src="https://user-images.githubusercontent.com/92088621/149196699-d34068b1-e9ea-49d1-b9e2-9435a66ebcd9.png"></p>
 
 The track’s position is the dependent (y) variable, and danceability is the independent (x) variable. β0 is the constant, ie. what is the track’s position when danceability equals 0. For the purposes of our project, we disregard β0. β1 serves as the coefficient in front of danceability. In other words, when the danceability increases by 1 unit, by how much does a track shift up on the charts. Ei serves as the error term for our equation, accounting for any confounding factors or errors in our estimation. 
 
-<img width="839" alt="Screenshot 2022-01-12 at 17 43 58" src="https://user-images.githubusercontent.com/92088621/149193693-03c26b38-f3e6-42ad-926e-aa29ac8b0515.png">
+<p align="center"><img width="839" alt="Screenshot 2022-01-12 at 17 43 58" src="https://user-images.githubusercontent.com/92088621/149193693-03c26b38-f3e6-42ad-926e-aa29ac8b0515.png"></p>
 
 Table 1 shows the Simple Linear Regression with our main explanatory variable, danceability, on chart placement. We find that at an aggregate level, danceability has a negative relationship with a track’s chart placement. A one unit increase in danceability is estimated to shift a track up by 8 positions on the top charts(in this case, a lower number, for example 1 or 2, translates to a higher position). A higher danceability value is associated with a higher placement on the charts. However, this coefficient is not statistically significant, ie. the results are likely to occur by chance. We wanted to examine how the 4 different years contributed to this coefficient, thus we broke it down in the following columns. 
 
@@ -194,7 +194,7 @@ We observed that the relationship between positions and audio features fluctuate
 
 ### Multiple Linear Regression
 
-<img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png">
+<p align="center"><img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png"></p>
 
 Here the table shows the results of meaningful multiple regression results. By meaningful, we mean results which generally have only around 10% chance of being a random error. While statisticians tend to hold only 5% error and we have upheld that principal for SLR results, our sample size is quite limited and the time period for our data collection is very specific. Therefore we recognise that extending error rate can allow us to look at more relationships that may have been statistically significant i,.e. P value les than 0.05, if sample size and time period for the data collection was wider. 
 
@@ -205,10 +205,10 @@ Moreover, both energy and tempo have a meaningful relationship with valence in 2
 The simple linear regression analysis on chart positioning only found a statistically significant relationship between danceability and chart position. Hence, it is important to look from the lens of danceability and see if it has meaningful relationships with other audio features. Here we can see that energy and danceability have a positive meaningful relationship in 2018 and 2021. Valence has a positive meaningful relationship with danceability in 2019 and 2020 while tempo has a positive meaningful relationship with danceability in 2019, 2020 and 2021. 
 
 
-![WhatsApp Image 2022-01-06 at 5 55 51 PM](https://user-images.githubusercontent.com/91945641/149195551-a7d582b6-d1d4-4e06-8548-6025707dcd91.jpeg)
+<p align="center"><img alt="WhatsApp Image 2022-01-06 at 5 55 51 PM" src="https://user-images.githubusercontent.com/91945641/149195551-a7d582b6-d1d4-4e06-8548-6025707dcd91.jpeg"></p>
 
 
-![WhatsApp Image 2022-01-06 at 3 01 30 PM](https://user-images.githubusercontent.com/91945641/149195566-93e2a012-008c-4561-8c84-1cf650756a47.jpeg)
+<p align="center"><img alt="WhatsApp Image 2022-01-06 at 3 01 30 PM" src="https://user-images.githubusercontent.com/91945641/149195566-93e2a012-008c-4561-8c84-1cf650756a47.jpeg"></p>
 
 
 The above are two scatter plots displayed of two meaningful relationships in two different years. The two plots are depicted to show the common themes, as bullet-pointed below, that are shared by scatter plots depicting all the meaningful relationships that were discovered. 
