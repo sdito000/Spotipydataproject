@@ -107,16 +107,14 @@ We want to show you some top songs, so you can get an idea how the audio feature
 
 <p align="center"><img alt="adele album" src="https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg"></p>
 
-<p align="center"> [Click to hear a sample of "Easy on Me"](https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc). </p>
+[Click to hear a sample of "Easy on Me"](https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc). </p>
 <p align="center"> [https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc](url)] </p>
 
 
 <p align="center"><img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png"></p>
 
 
-<p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 24 AM (1)" src="https://user-images.githubusercontent.com/91945641/148684206-6d948b8d-70f6-48fc-be20-9fdabdc69ef3.jpeg"></p>
-
-<p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 25 AM" src="https://user-images.githubusercontent.com/91945641/148684185-c7be63a3-fd2b-4398-bacf-3617e04b76bd.jpeg"></p>
+<img width="779" alt="Screen Shot 2022-01-14 at 4 17 56 PM" src="https://user-images.githubusercontent.com/91945641/149548981-9eb52760-3a6d-46f9-afd4-451e90d0f1fc.png">
 
 _Note: The features listed in the radar charts are a measure between 0 and 1._
 
@@ -138,8 +136,8 @@ The only answer to our initial question that can be drawn from this comparison i
 
 ### More Examples
 
-<p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 24 AM (2)" src="https://user-images.githubusercontent.com/91945641/148684312-e8f53094-9f5c-4e63-95ae-32ae70ca7752.jpeg"></p>
-<p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 25 AM (1)" src="https://user-images.githubusercontent.com/91945641/148689454-a1d97e7a-2ca7-4779-910a-dcf493bc3d61.jpeg"></p>
+
+<img width="779" alt="Screen Shot 2022-01-14 at 4 19 07 PM" src="https://user-images.githubusercontent.com/91945641/149548971-3420de7e-143f-4200-836b-9bc22bf7c39b.png">
 
 The top song in the first week of November, 2019 is "Dance Monkey" by Tones and I and the top song in first week of November, 2020 is "positions" by Ariana Grande. 
 
