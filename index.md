@@ -109,7 +109,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 <p align="center"><img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png"></p>
 
 
-<img width="779" alt="Screen Shot 2022-01-14 at 4 17 56 PM" src="https://user-images.githubusercontent.com/91945641/149548981-9eb52760-3a6d-46f9-afd4-451e90d0f1fc.png">
+<p align="center"><img width="779" alt="Screen Shot 2022-01-14 at 4 17 56 PM" src="https://user-images.githubusercontent.com/91945641/149548981-9eb52760-3a6d-46f9-afd4-451e90d0f1fc.png"></p>
 
 _Note: The features listed in the radar charts are a measure between 0 and 1._
 
@@ -132,7 +132,7 @@ The only answer to our initial question that can be drawn from this comparison i
 ### More Examples
 
 
-<img width="779" alt="Screen Shot 2022-01-14 at 4 19 07 PM" src="https://user-images.githubusercontent.com/91945641/149548971-3420de7e-143f-4200-836b-9bc22bf7c39b.png">
+<p align="center"><img width="779" alt="Screen Shot 2022-01-14 at 4 19 07 PM" src="https://user-images.githubusercontent.com/91945641/149548971-3420de7e-143f-4200-836b-9bc22bf7c39b.png"></p>
 
 The top song in the first week of November, 2019 is "Dance Monkey" by Tones and I and the top song in first week of November, 2020 is "positions" by Ariana Grande. 
 
