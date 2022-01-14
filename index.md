@@ -146,6 +146,7 @@ After compiling our data into Excel sheets, we ran descriptive statistics utilis
 Table: Descriptive statistics of audio features for 2018-20 
 
 <p align="center"><img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png"></p>
+
 Table: Boxplots visualising descriptive statistics
 
 By looking at the values, there is a story emerging. The mean, median and standard deviation of tempo, energy and valence increases steadily between 2018 and 2021. This means that your favourite top songs, on average, are more likely to exhibit musical positivity, upbeat rhythms and energy over the years. However, the range of values of these audio features of top songs also expands over the years.
