@@ -8,29 +8,15 @@ Introducing our team members:
 
 # Brief Overview // Executive Summary
 
-## Motivation
-
 Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in the possibility of predicting song popularity, using the popular streaming platform Spotify, if there exists a set pattern which makes a song climb up the music charts. We aim to study audio features, which we pulled from Spotify Web API, of the top music of the last few years. 
-
-Once we defined our project, we started to ask new questions: Is there a pattern? Are some audio features directly connected to others? Is there a defining audio feature that is prominent in all top songs? Is there a collective music taste, or are all the top songs different?
-
-## Data
 
 We used the top 25 songs of the first week of November of 2018, 2019, 2020, 2021. Our group went to an outside source, spotifycharts.com, to access the data we needed. We obtained 100 songs' data through Spotify’s API on danceability, speechability, valence, tempo, energy, and loudness. 
 
-## Methods 
-
-We compiled the data we found on 100 songs in an Excel spreadsheet, and then found the mean, median, maximum, minimum, and standard deviation. 
-
-By obtaining descriptive statistics, we used simple linear regression (SLR) and multiple linear regression (MLR) to determine whether there is a relationship between any audio features.
-
-## Results 
+We compiled the data we found on 100 songs in an Excel spreadsheet, and then found the mean, median, maximum, minimum, and standard deviation. By obtaining descriptive statistics, we used simple linear regression (SLR) and multiple linear regression (MLR) to determine whether there is a relationship between any audio features.
 
 After running Simple Linear Regressions, we found that over 4 years of data, a high danceability value is associated with a higher position on the charts. According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meangiful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
 
-## Conclusion 
-
-After asking ourselves "What makes a song popular?", we came to the conclusion that music is an abstract concept. It is extraordinarily hard, if not impossible, to predict whether a song will reach the top charts. There is also limitations to our research and the most prominent one is that we had a small song sample. We could not tell you what you wanted to hear-- that we know how your song will climb the global music charts. 
+To answer our question "What makes a song popular?", we came to the conclusion that music is an abstract concept. It is extraordinarily hard, if not impossible, to predict whether a song will reach the top charts. There is also limitations to our research and the most prominent one is that we had a small song sample. We could not tell you what you wanted to hear-- that we know how your song will climb the global music charts. 
 
 
 ### In further detail, Here is what we found: 
