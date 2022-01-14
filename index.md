@@ -133,7 +133,7 @@ The only answer to our initial question that can be drawn from this comparison i
 
 <p align="center"><img width="779" alt="Screen Shot 2022-01-14 at 4 19 07 PM" src="https://user-images.githubusercontent.com/91945641/149548971-3420de7e-143f-4200-836b-9bc22bf7c39b.png"></p>
 
-The top song in the first week of November, 2019 is "Dance Monkey" by Tones and I and the top song in first week of November, 2020 is "positions" by Ariana Grande. 
+The top song in our 2019 sample is "Dance Monkey" by Tones and I and the top song in our 2020 sample is "positions" by Ariana Grande. 
 
 
 ## _**Methodology**_
@@ -165,7 +165,7 @@ In order to study the relationships between audio features, we used multiple reg
 
 <p align="center"><em> Table: Overlapped radar charts of mean audio features </em></p>
 
-The chart is an overlap of radar charts depciting mean values of four audio features - energy, speechiness, danceability, valence -  over four years, 2018 t0 2021. As you can see, there is some overlap between the audio features since the radar charts have similar shapes. This entails that on average, the top songs have similar levels of energy, speechiness, danceability and valence to an extent. 
+The chart is an overlap of radar charts depciting mean values of four audio features - energy, speechiness, danceability, valence -  over four years, 2018 to 2021. As you can see, there is some overlap between the audio features since the radar charts have similar shapes. This entails that on average, the top songs have similar levels of energy, speechiness, danceability and valence to an extent. 
 
 
 ## _**Results**_
