@@ -6,7 +6,7 @@ Music is a tool that has unifying characteristics. Even though we all have diffe
 
 ![group members](https://user-images.githubusercontent.com/91847452/149316564-aff0f924-8e3b-4dd9-923b-77fa90141bf3.png)
 
-## _*Brief Overview // Executive Summary**_
+## _**Brief Overview // Executive Summary**_
 
 Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in the possibility of predicting song popularity, using the popular streaming platform Spotify, if there exists a set pattern which makes a song climb up the music charts. We aim to study audio features, which we pulled from Spotify Web API, of the top music of the last few years. 
 
@@ -116,7 +116,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 
 <p align="center"><img alt="WhatsApp Image 2021-12-04 at 10 28 25 AM" src="https://user-images.githubusercontent.com/91945641/148684185-c7be63a3-fd2b-4398-bacf-3617e04b76bd.jpeg"></p>
 
-_Note: The features listed in the radar charts are a measure between 0 and 1. 
+_Note: The features listed in the radar charts are a measure between 0 and 1._
 
 
 ### A Puzzle // Initial Observations
