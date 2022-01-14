@@ -191,14 +191,13 @@ Danceability has the most significant results, it sounds more intuitive that the
 
 ## Multiple Linear Regression
 
-
 <img width="453" alt="MLR" src="https://user-images.githubusercontent.com/91945641/149322485-faae16ca-4a34-41ad-934f-cfc863ac2d1d.png">
 
-Here the table shows the results of meaningful multiple regression results. By meaningful, we mean results which generally have only around 10% chance of being a random error. While statisticians tend to hold only 5% error and we have upheld that principal for SLR results, our sample size is quite limited and the time period for our data collection is very specific. Therefore we recognise that extending error rate can allow us to look at more relationships that may have been statistically significant i,.e. P value les than 0.05, if sample size and time period for data collection was wider. 
+Here the table shows the results of meaningful multiple regression results. By meaningful, we mean results which generally have only around 10% chance of being a random error. While statisticians tend to hold only 5% error and we have upheld that principal for SLR results, our sample size is quite limited and the time period for our data collection is very specific. Therefore we recognise that extending error rate can allow us to look at more relationships that may have been statistically significant i,.e. P value les than 0.05, if sample size and time period for the data collection was wider. 
 
-The estimate indicates the strength and direction of the relationship. Here all the relationships are positive. An estimate of 0.49 between  energy and danceability in 2018 means that if energy increases by 1 unit, danceability increases by 0.49 unit. The estimates that are 0 are ones that have very negligible non-zero increases in unit. While the relationships vary in strength and statistical significance, some common themes emerge over the years. 
+The estimate indicates the strength and direction of the relationship. Here all the relationships are positive. An estimate of 0.49 between energy and danceability in 2018 means that if energy increases by 1 unit, danceability increases by 0.49 unit. The estimates that are 0 are ones that have very negligible non-zero increases in unit. Thus, while the relationships vary in strength and statistical significance, some common themes emerge over the years. 
 
-Both energy and tempo have a meaningful relationship with valence in 2019 and the meaningful relationship between tempo and valence continues in 2020 while tempo and energy have a positive meaningful relationship in 2020 and 2021. This provides a more nuanced look into the nature of these audio features which seemed to increase in mean between 2018 and 2021 according to the descriptive statistics. 
+Moreover, both energy and tempo have a meaningful relationship with valence in 2019 and the meaningful relationship between tempo and valence continues in 2020 while tempo and energy have a positive meaningful relationship in 2020 and 2021. This provides a more nuanced look into the nature of these audio features which seemed to increase in mean between 2018 and 2021 according to the descriptive statistics. 
 
 The simple linear regression analysis on chart positioning only found a statistically significant relationship between danceability and chart position. Hence, it is important to look from the lens of danceability and see if it has meaningful relationships with other audio features. Here we can see that energy and danceability have a positive meaningful relationship in 2018 and 2021. Valence has a positive meaningful relationship with danceability in 2019 and 2020 while tempo has a positive meaningful relationship with danceability in 2019, 2020 and 2021. 
 
@@ -213,7 +212,7 @@ The above are two scatter plots displayed of two meaningful relationships in two
 
 
 1.	The points in the scatter plot are widely dispersed and there is a lot of variance. This makes it difficult to establish a meaningful relationship between the variables. 
-2.	The outliers are marked by their album covers. There are a lot of outliers which means even if there is a meaningful relationship there a considerable number of songs that do not fit the mold. Hence, it is difficult to generalize to the thousands of songs that are released every year or even the hundreds of songs that can become well-known or hits. 
+2.	The outliers are marked by their respective album covers. There are a lot of outliers which means even if there is a meaningful relationship there a considerable number of songs that do not fit the mold. Hence, it is difficult to generalize thousands of songs that are released every year or even the hundreds of songs that can become well-known or top hits. 
 
 
 
