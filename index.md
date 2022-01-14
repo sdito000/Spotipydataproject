@@ -141,9 +141,9 @@ The top song in the first week of November, 2019 is "Dance Monkey" by Tones and 
 
 After compiling our data into Excel sheets, we ran descriptive statistics utilising Excel’s features. We calculated the mean, medium, maximum and minimum values as well as standard deviation on the audio features we selected I.e. tempo, valence, danceability, energy, loudness & speechiness for the time period of 2018-2021. 
 
-<img width="436" alt="des stats 1" src="https://user-images.githubusercontent.com/91945641/149530224-588b91ac-8363-4709-b705-bca7188efbe9.png">
 
-<img width="570" alt="Screen Shot 2022-01-14 at 4 33 53 PM" src="https://user-images.githubusercontent.com/91945641/149551098-bf8519b5-4098-4e98-af04-c000dfb83bef.png">
+<img width="1187" alt="Screen Shot 2022-01-14 at 4 39 13 PM" src="https://user-images.githubusercontent.com/91945641/149551922-2332e0e1-4419-4800-bb34-6de6d580825b.png">
+
 
 <p align="center"><img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png"></p>
 
