@@ -107,6 +107,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 
 <p align="center"><img width="405" alt="Screen Shot 2022-01-13 at 11 44 59 AM" src="https://user-images.githubusercontent.com/91945641/149324568-58b76503-ee95-41c6-9031-0ee1df8f241e.png"></p>
 
+Below are radar charts comparing the values between the two popular songs.
 
 <p align="center"><img width="779" alt="Screen Shot 2022-01-14 at 4 17 56 PM" src="https://user-images.githubusercontent.com/91945641/149548981-9eb52760-3a6d-46f9-afd4-451e90d0f1fc.png"></p>
 
@@ -115,7 +116,7 @@ _Note: The features listed in the radar charts are a measure between 0 and 1._
 
 ### A Puzzle // Initial Observations
 
-"Taki Taki" is the number one hit song in the first week of November, 2018; while "Easy on Me" is the number one hit song in the first week of November, 2021. As we can notice with these audio features, the two hit songs are quite different. 
+"Taki Taki" is the number one hit song in the 2018 sample while "Easy on Me" is the number one hit song in the 2021 sample. As we can notice with these audio features, the two hit songs are quite different. 
 
 How are they different from a data analyst’s standpoint? “Taki Taki” has a high valence and “Easy on Me” has a lower valence. This shows that any level of valence could climb up the charts. 
 
