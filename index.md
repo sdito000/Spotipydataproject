@@ -234,7 +234,7 @@ To list them, other factors influencing a song's popularity is lyrics, previous 
 
 <p align="center"><img width="393" alt="pie chart" src="https://user-images.githubusercontent.com/91847452/149546451-7538db67-2034-4ea1-b8be-1fa315ee1a41.PNG"></p>
 
-<p align="center"><em> Image Source: Nielsen Music, 2015 </em></p>
+<p align="center"><em>Image Source: Nielsen Music, 2015</em></p>
 
 It is important to refer to the limitations we have faced that require further research. First of all, we analysed the top 25 most globally streamed songs for our research. If we were to evaluate a specific country’s top 25 most streamed songs, we might have gotten different results. Secondly, we analysed a small sample of songs from a short period of time. We only looked over the top 25 songs from 4 consecutive years: 2018, 2019, 2020 and 2021. Next, with the wide presence of social media, song popularity can be altered according to the social influence we receive. According to Pachet, “[kn]owing that a song is a hit…influences our liking” (2012). One social media platform that comes to mind is TikTok. We noticed that the majority of songs we analyzed are (or were at one point) widely used songs on TikTok. Lastly, a change of website where we acquired our data might cause different results. There are other websites such as Billboard that also provide the same type of data. With these limitations in place, our result is that it is not possible to predict song popularity. Moving forward, further research is needed to eliminate the limitations mentioned above. 
 
