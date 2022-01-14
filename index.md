@@ -143,7 +143,7 @@ After compiling our data into Excel sheets, we ran descriptive statistics utilis
 
 <img width="436" alt="des stats 1" src="https://user-images.githubusercontent.com/91945641/149530224-588b91ac-8363-4709-b705-bca7188efbe9.png">
 
-<img width="432" alt="des stat 2" src="https://user-images.githubusercontent.com/91945641/149530236-c2808a14-d782-4d61-a3a3-0a622a240e84.png">
+<img width="570" alt="Screen Shot 2022-01-14 at 4 33 53 PM" src="https://user-images.githubusercontent.com/91945641/149551098-bf8519b5-4098-4e98-af04-c000dfb83bef.png">
 
 <p align="center"><img width="1117" alt="Screen Shot 2022-01-13 at 12 34 25 PM" src="https://user-images.githubusercontent.com/91945641/149331116-adc7d7b0-434d-47df-8ed0-b9eea649ea66.png"></p>
 
@@ -158,7 +158,7 @@ In order to study the relationship between a track’s position and its audio fe
 In order to study the relationships between audio features, we used multiple regression analysis (MLR). MLR allows us to test relationships between multiple independent variables and a single dependent variable. For instance, we can test the direction and strength of relationship between danceability (dependent) with tempo, energy, valence, loudness i.e. all audio features. And we did! We constructed multiple MLR relationships to define each audio feature as y and rest as x. Our purpose was to get a full combination of every single relationship possible. Usually multiple factors affect song production in real life: None can make a song with just a single audio feature. Testing relationships allow us to explore common themes and interesting threads of popular music.
 
 
-### Visualising Each Year’s Mean Value 
+### Visualising Each Year’s Mean Values 
 
 <p align="center"><img width="450" alt="WhatsApp Image 2022-01-13 at 9 32 57 AM" src="https://user-images.githubusercontent.com/91945641/149321816-ec868527-7174-4c2d-a9ec-d180605a53e9.jpeg"></p>
 
