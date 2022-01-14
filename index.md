@@ -107,7 +107,7 @@ We want to show you some top songs, so you can get an idea how the audio feature
 
 <p align="center"><img alt="adele album" src="https://user-images.githubusercontent.com/91945641/148683866-a03af351-6d1e-4abc-a390-cc5b551bcbec.jpeg"></p>
 
-<p align="center"> Click to hear a sample of "Easy on Me". </p>
+<p align="center"> [Click to hear a sample of "Easy on Me"](https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc). </p>
 <p align="center"> https://audio.jukehost.co.uk/TpHi7dPjFewH4z1FxUExLBNEsc5RMCUc </p>
 
 
