@@ -1,5 +1,6 @@
 
 # **What Makes a Song Popular?**
+
 Music is a tool that has unifying characteristics. Even though we all have different tastes and preferences, each of us can talk about which songs we listen to when we are happy or which ones help us go through an exceptionally difficult time. That’s how our group came together, by discussing which songs we liked more than the others and why. Once we realised we have multiple favourite songs in common, we started asking each other, "What makes a song popular?"
 
 *Introducing our team members:*
@@ -8,32 +9,33 @@ Music is a tool that has unifying characteristics. Even though we all have diffe
 
 ## _**Brief Overview // Executive Summary**_
 
-Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in the possibility of predicting song popularity, using the popular streaming platform Spotify, if there exists a set pattern which makes a song climb up the music charts. We aim to study audio features, which we pulled from Spotify Web API, of the top music in the last few years. 
+Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in the possibility of predicting song popularity, using the popular streaming platform Spotify, if there exists a set pattern of features which make a song climb up the music charts. We aim to study audio features, which we pulled from Spotify Web API, of the top music of the last few years. 
 
-We used the top 25 songs in the first week of November 2018, 2019, 2020, 2021. Our group went to an outside source, [spotifycharts.com](https://spotifycharts.com/home/), to access the data we needed. We obtained 100 songs' data through Spotify’s API on danceability, speechability, valence, tempo, energy, and loudness. 
+We used the top 25 songs of the first week of November of 2018, 2019, 2020, and 2021. Our group went to an outside source, spotifycharts.com, to access the data we needed. We obtained 100 songs' data through Spotify’s API on danceability, speechability, valence, tempo, energy, and loudness. 
 
 We compiled the data we found on 100 songs in an Excel spreadsheet, and then found the mean, median, maximum, minimum, and standard deviation. By obtaining descriptive statistics, we used simple linear regression (SLR) and multiple linear regression (MLR) to determine whether there is a relationship between any audio features.
 
-After running Simple Linear Regressions, we found that over 4 years of data, a high danceability value is associated with a higher position on the charts. According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meaningful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
+After running Simple Linear Regressions, we found that over 4 years of data, a high danceability value is associated with a higher position on the charts. According to our Multiple Regression results, there are some relationships that are sustained over a few years. The longest meangiful relationship is the one between tempo and danceability that is sustained for 3 years while valence and energy sustain a relationship with danceability for two years each. 
 
-To answer our question "What makes a song popular?", we came to the conclusion that despite some common themes in viral spotify hit songs, music is an abstract concept. It is difficult to fully predict whether a song will reach the top charts. There is also limitations to our research and the most prominent one is that we had a small song sample. We could tell you what audio features predicted rise of top 25 songs during year-end 2018-21. However, we cannot confirm that we know how your song will climb the global music charts. We present such a nuanced outlook in our data project below. 
+To answer our question "What makes a song popular?", we came to the conclusion that despite some common themes in viral spotify hit songs, music is an abstract concept. It is difficult to fully predict whether a song will reach the top charts. There is also limitations to our research and the most prominent one is that we had a small song sample. We could tell you what audio features predicted rise of top 25 songs during year-end 2018-2021. However, we cannot confirm that we know how your song will climb the global music charts. We present such a nuanced outlook in our data project below. 
 
 
 ## _**Purpose**_
 
 Starting from our general question “What makes a song popular?”, we wondered if predicting song popularity is possible. _Hit Song Science_ (HSS), a term that was first used by Mike McCready, is about exploring whether song popularity can be predicted through audio features put into machine learning. While the validity of HSS continues to be a debate in the music industry, producers and record label companies are hopeful that a song’s popularity can be predicted through its audio features. 
 
-We want to connect _Hit Song Science_ to Data analysis of the Spotify's API. Is there a pattern? Are some audio features directly connected to others? Is there a defining audio feature that is prominent in all top songs? Is there a collective music taste, or are all the top songs different?
+We want to connect _Hit Song Science_ to data analysis of the Spotify's API. As we defined our project, we started asking new questions: Is there a pattern? Are some audio features directly connected to others? Is there a defining audio feature that is prominent in all top songs? Is there a collective music taste, or are all the top songs different?
 
 
 ## _**Preface**_
-Our project’s aim is to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of every November from the years 2018 to 2021. We used [SpotifyCharts.com](https://spotifycharts.com/home/) to obtain these songs.
+
+Our project’s aim is to use Spotify’s API to obtain data on audio features of top songs in order to analyse what makes a song popular. Our data sample is the Global Top 25 songs of the first week of November from the years 2018 to 2021. We used SpotifyCharts.com to obtain these songs.
 
 Now, we want to familiarise you with the audio features we concentrated on. 
 
 The features that we chose have to do with the mood and production properties of the song. We feel that these features (tempo, danceability, valence, energy, speechiness, loudness, and instrumentalness) really contribute to what attracts the average ear to top songs. 
 
-Here is a description of the audio features we have used (Spotify Web API reference, 2021): 
+Here is a description of the audio features we have used (Spotify Web API reference, 2022): 
 
 
 <p align="center"> <img width="450" alt="audio features" src="https://user-images.githubusercontent.com/91847452/149315531-c69e90ee-c404-40e3-b1b3-48f80e005629.png"></p>
@@ -54,8 +56,7 @@ Here is a description of the audio features we have used (Spotify Web API refere
 
 ## _**Justification**_
 
-Understanding what makes a song popular will have great influence on business models that depend on popular music, such as radio stations, online audio streaming services (such as Spotify), and record labels. Hit Song Science will have a significant impact on the music industry. If the popularity of a song can be predicted before its release, it would create a commercial opportunity. Songwriters and composers will be able to focus on key elements that predict the song's popularity, and the budget will be better allocated. According to computer science students at Stanford University, HSS is a problem that the music industry is currently working on to solve (Pham et al., 2015). Their research shows which audio features are the most influential elements that make a song popular. Inspired by their research, we wanted to establish a foundation for understanding whether predicting song popularity would be possible in the future. 
-
+Understanding what makes a song popular will have great influence on business models that depend on popular music, such as radio stations, online audio streaming services (such as Spotify), and record labels. Hit Song Science will have a significant impact on the music industry. If the popularity of a song can be predicted before its release, it would create a commercial opportunity. Songwriters and composers will be able to focus on key elements that predict the song's popularity, and the budget will be better allocated. However, HSS is a problem that the music industry is currently working on to solve (Pham et al., 2015). A research conducted by Stanford University, shows which audio features are the most influential elements that make a song popular. Inspired by their research, we wanted to establish a foundation for understanding whether predicting song popularity would be possible in the future. 
 
 Furthermore, given the commercial significance of a success formula, there are media narratives on song popularity. These are some articles talking about which combination of audio features make a song popular.
 
@@ -72,7 +73,7 @@ The sub-heading assumes two things: firstly, the audio features are impacting po
 
 ## _**Aim**_
 
-Our project’s aim is to gain more insight on the factors that make a song popular. We want to see if there exists a formula that artists can comply with that will make their song reach the top charts. Another aspect of our aim is to see if popular music has any significant relationships among audio features. 
+Our project’s aim is to gain more insight on the factors that make a song popular. We want to see if a formula exists that artists can comply with that will make their song reach the top charts. Another aspect of our aim is to see if popular music has any significant relationships among audio features. 
 
 
 ## _**Data**_
@@ -86,7 +87,7 @@ We extracted six audio features for our data analysis - tempo, valence, danceabi
 
 ### Examples
 
-We want to show you some top songs, so you can get an idea how the audio features' values manifests in a top song. 
+We want to show you some top songs, so you can get an idea how the audio features' values manifests in a top song:
 
 ### **Taki Taki (with Selena Gomez, Ozuna, and Cardi B)** _By DJ Snake_
 [Audio Sample of "Taki Taki"](https://audio.jukehost.co.uk/rmjuk0Xw6LjAvn3EUBj9wFNPyOOSxIJP)
@@ -235,9 +236,7 @@ To list them, other factors influencing a song's popularity is lyrics, previous 
 
 <p align="center"><em> Image Source: Nielsen Music, 2015 </em></p>
 
-It is important to refer to the limitations we have faced that require further research. First of all, we analysed the top 25 most globally streamed songs for our research. If we were to evaluate a specific country’s top 25 most streamed songs, we might have gotten different results. Secondly, we analysed a small sample of songs from a short period of time. We only looked over the top 25 songs from 4 consecutive years: 2018, 2019, 2020 and 2021. Next, with the wide presence of social media, song popularity can be altered according to the social influence we receive. According to Pachet, “[kn]owing that a song is a hit…influences our liking” (2012). One social media platform that comes to mind is TikTok. We noticed that the majority of songs we analyzed are (or were at one point) widely used songs on TikTok. Lastly, a change of website where we acquired our data might cause different results. There are other websites such as Billboard that also provide the same type of data. With these limitations in place, our result is that it is not possible to predict song popularity. 
-
-Moving forward, further research is needed to eliminate the limitations mentioned above. Once predicting song popularity is accomplished, we can investigate whether automatic generation of hit songs is possible through the same audio features we analysed. 
+It is important to refer to the limitations we have faced that require further research. First of all, we analysed the top 25 most globally streamed songs for our research. If we were to evaluate a specific country’s top 25 most streamed songs, we might have gotten different results. Secondly, we analysed a small sample of songs from a short period of time. We only looked over the top 25 songs from 4 consecutive years: 2018, 2019, 2020 and 2021. Next, with the wide presence of social media, song popularity can be altered according to the social influence we receive. According to Pachet, “[kn]owing that a song is a hit…influences our liking” (2012). One social media platform that comes to mind is TikTok. We noticed that the majority of songs we analyzed are (or were at one point) widely used songs on TikTok. Lastly, a change of website where we acquired our data might cause different results. There are other websites such as Billboard that also provide the same type of data. With these limitations in place, our result is that it is not possible to predict song popularity. Moving forward, further research is needed to eliminate the limitations mentioned above. 
 
 
 ## Appendix 
