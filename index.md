@@ -10,7 +10,7 @@ Music is a tool that has unifying characteristics. Even though we all have diffe
 
 Exploring what makes a song hit the top charts is a fascinating study that caught our eye, as the study is a great mix between data analysis, sociology, and art. We are interested in the possibility of predicting song popularity, using the popular streaming platform Spotify, if there exists a set pattern which makes a song climb up the music charts. We aim to study audio features, which we pulled from Spotify Web API, of the top music in the last few years. 
 
-We used the top 25 songs of the first week of November of 2018, 2019, 2020, 2021. Our group went to an outside source, spotifycharts.com, to access the data we needed. We obtained 100 songs' data through Spotify’s API on danceability, speechability, valence, tempo, energy, and loudness. 
+We used the top 25 songs in the first week of November 2018, 2019, 2020, 2021. Our group went to an outside source, [spotifycharts.com](https://spotifycharts.com/home/), to access the data we needed. We obtained 100 songs' data through Spotify’s API on danceability, speechability, valence, tempo, energy, and loudness. 
 
 We compiled the data we found on 100 songs in an Excel spreadsheet, and then found the mean, median, maximum, minimum, and standard deviation. By obtaining descriptive statistics, we used simple linear regression (SLR) and multiple linear regression (MLR) to determine whether there is a relationship between any audio features.
 
